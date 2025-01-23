@@ -16,9 +16,9 @@
 <br>
 
 ## 📝 Latest Qiita Posts
-<!--[START POSTS]-->
+<!--[START github.com/fujifuji1414/feedsnippet]-->
 
-<!--[END POSTS]-->
+<!--[END github.com/fujifuji1414/feedsnippet]-->
 <br>
 
 - 👽 I’m passionate about backend development.
