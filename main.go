@@ -109,7 +109,7 @@ func updateReadme(posts []Post, templateText, readmePath string, limit int) erro
 
 	// <!--[START POSTS]--> と <!--[END POSTS]--> の間を置換
 	re := regexp.MustCompile(`<!--\[START POSTS\]-->.*<!--\[END POSTS]-->`)
-	updated := re.ReplaceAllString(string(readme), fmt.Sprintf("<!--[START POSTS]-->\n%s\n<!--[END POSTS]-->", markdown))
+	updated := re.ReplaceAllString(string(readme), fmt.Sprintf("<!--[START github.com/fujifuji1414/feedsnippet]-->\n%s\n<!--[END github.com/fujifuji1414/feedsnippet]-->", markdown))
 
 	// 書き込み
 	return os.WriteFile(readmePath, []byte(updated), 0644)
