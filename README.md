@@ -17,13 +17,7 @@
 
 ## 📝 Latest Qiita Posts
 <!--[START POSTS]-->
-- ![](img/qiita.png) [タイトル1](https://qiita.com/link1)
-- ![](img/qiita.png) [タイトル2](https://qiita.com/link2)
-- ![](img/qiita.png) [タイトル3](https://qiita.com/link3)
-- ![](img/qiita.png) [タイトル4](https://qiita.com/link4)
-- ![](img/qiita.png) [タイトル5](https://qiita.com/link5)
-- ![](img/qiita.png) [タイトル5](https://qiita.com/link6)
-- ![](img/qiita.png) [タイトル5](https://qiita.com/link7)
+
 <!--[END POSTS]-->
 <br>
 
