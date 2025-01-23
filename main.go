@@ -43,20 +43,15 @@ func fetchRSS(url string) ([]Post, error) {
 		return nil, fmt.Errorf("RSSデータ読み込みエラー: %w", err)
 	}
 
-	// デバッグ: RSSデータを確認
-	fmt.Printf("取得したRSSデータ:\n%s\n", data)
-
 	var feed RSS
 	if err := xml.Unmarshal(data, &feed); err != nil {
 		return nil, fmt.Errorf("RSS解析エラー: %w", err)
 	}
 
-	// 投稿データに変換
 	var posts []Post
 	for _, item := range feed.Items {
 		date, err := time.Parse(time.RFC1123Z, item.PubDate)
 		if err != nil {
-			fmt.Printf("日付解析エラー: %s (%v)\n", item.PubDate, err)
 			continue
 		}
 		posts = append(posts, Post{
@@ -66,18 +61,16 @@ func fetchRSS(url string) ([]Post, error) {
 		})
 	}
 
-	// デバッグ: パースされた投稿データ
-	fmt.Printf("パースされた投稿データ:\n%+v\n", posts)
+	// 日付順にソート
+	sort.Slice(posts, func(i, j int) bool {
+		return posts[i].Date.After(posts[j].Date)
+	})
 
 	return posts, nil
 }
 
 // READMEを更新
 func updateReadme(posts []Post, templateText, readmePath string, limit int) error {
-	// 投稿を日付順に並べ替え
-	sort.Slice(posts, func(i, j int) bool {
-		return posts[i].Date.After(posts[j].Date)
-	})
 	if len(posts) > limit {
 		posts = posts[:limit]
 	}
@@ -94,9 +87,6 @@ func updateReadme(posts []Post, templateText, readmePath string, limit int) erro
 	}
 	markdown := buf.String()
 
-	// デバッグ: 生成されたMarkdownを出力
-	fmt.Printf("生成されたMarkdown:\n%s\n", markdown)
-
 	// READMEを読み込み
 	readme, err := os.ReadFile(readmePath)
 	if err != nil {
@@ -107,10 +97,7 @@ func updateReadme(posts []Post, templateText, readmePath string, limit int) erro
 	re := regexp.MustCompile(`<!--\[START POSTS\]-->.*<!--\[END POSTS\]-->`)
 	updated := re.ReplaceAllString(string(readme), fmt.Sprintf("<!--[START POSTS]-->\n%s\n<!--[END POSTS]-->", markdown))
 
-	// デバッグ: 置換後のREADME内容
-	fmt.Printf("置換後のREADME内容:\n%s\n", updated)
-
-	// 書き込み
+	// READMEに書き込み
 	return os.WriteFile(readmePath, []byte(updated), 0644)
 }
 

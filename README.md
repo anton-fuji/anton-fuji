@@ -17,7 +17,6 @@
 
 ## 📝 Latest Qiita Posts
 <!--[START POSTS]-->
-
 <!--[END POSTS]-->
 <br>
 
