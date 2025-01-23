@@ -1,0 +1,32 @@
+name: Posts Updater
+
+on:
+    schedule:
+        - cron: '0 0 * * 0' # 毎週日曜日の午前0時に実行
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+
+            - name: Set up Go
+              uses: actions/setup-go@v4
+              with:
+                go-version: 1.23.2
+
+            - name: Git settings
+              run: |
+                git config --local user.email "fujiji.entire1414@gmail.com"
+                git config --local user.name "anton-fuji"
+
+            - name: Run Go script
+              run: go run main.go
+
+            - name: Commit and Push changes
+              run: |
+                git add README.md
+                git commit -m "update posts"
+                git push origin main

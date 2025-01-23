@@ -31,7 +31,7 @@
 <div align="center">
   <h3>📈 Contribution Activity</h3>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anton-fuji&theme=github_dark" alt="Contribution Stats Card" width="390" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset={utcOffset}" alt="Most Productive Time Card" width="390" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark" alt="Most Productive Time Card" width="390" />
 </div>
 
 
