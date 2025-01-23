@@ -15,6 +15,8 @@
 </p>
 <br>
 
+- 👽 I’m passionate about backend development.
+- I’m currently diving into **Go!** 🚀
 ## 📝 Latest Qiita Posts
 <!--[START POSTS]-->
 **Qiita**
@@ -26,8 +28,6 @@
 <!--[END POSTS]-->
 <br>
 
-- 👽 I’m passionate about backend development.
-- I’m currently diving into **Go!** 🚀
 
 ## 🌱Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react, githubactions" />
