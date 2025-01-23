@@ -13,8 +13,9 @@
     <img height="20" src="https://qiita-badge.apiapi.app/s/fujifuji1414/contributions.svg" />
   </a>
 </p>
-- 👽 I like a Backend
-- I'm currently learning **Go**!
+
+- 👽 I’m passionate about backend development.
+- I’m currently diving into **Go!** 🚀
 
 ## 🌱Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react, githubactions" />
@@ -45,10 +46,9 @@
 <div align="center">
   <h3>📈 Contribution Activity</h3>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anton-fuji&theme=github_dark" alt="Contribution Stats Card" width="390" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark" alt="Most Productive Time Card" width="390" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset=9" alt="Most Productive Time Card" width="390" />
 </div>
-
-
+<br>
 
 
 <div align="center">
