@@ -34,20 +34,24 @@ type RSS struct {
 func fetchRSS(url string) ([]Post, error) {
 	resp, err := http.Get(url)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("RSSデータ取得エラー: %w", err)
 	}
 	defer resp.Body.Close()
 
 	data, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return nil, err
+		return nil, fmt.Errorf("RSSデータ読み込みエラー: %w", err)
 	}
+
+	// デバッグ: RSSデータを確認
+	fmt.Printf("取得したRSSデータ:\n%s\n", data)
 
 	var feed RSS
 	if err := xml.Unmarshal(data, &feed); err != nil {
 		return nil, fmt.Errorf("RSS解析エラー: %w", err)
 	}
 
+	// 投稿データに変換
 	var posts []Post
 	for _, item := range feed.Items {
 		date, err := time.Parse(time.RFC1123Z, item.PubDate)
@@ -61,11 +65,16 @@ func fetchRSS(url string) ([]Post, error) {
 			URL:   item.Link,
 		})
 	}
+
+	// デバッグ: パースされた投稿データ
+	fmt.Printf("パースされた投稿データ:\n%+v\n", posts)
+
 	return posts, nil
 }
 
 // READMEを更新
 func updateReadme(posts []Post, templateText, readmePath string, limit int) error {
+	// 投稿を日付順に並べ替え
 	sort.Slice(posts, func(i, j int) bool {
 		return posts[i].Date.After(posts[j].Date)
 	})
@@ -73,6 +82,7 @@ func updateReadme(posts []Post, templateText, readmePath string, limit int) erro
 		posts = posts[:limit]
 	}
 
+	// テンプレートを適用
 	tmpl, err := template.New("readme").Parse(templateText)
 	if err != nil {
 		return fmt.Errorf("テンプレート解析エラー: %w", err)
@@ -87,17 +97,20 @@ func updateReadme(posts []Post, templateText, readmePath string, limit int) erro
 	// デバッグ: 生成されたMarkdownを出力
 	fmt.Printf("生成されたMarkdown:\n%s\n", markdown)
 
+	// READMEを読み込み
 	readme, err := os.ReadFile(readmePath)
 	if err != nil {
 		return fmt.Errorf("README読み込みエラー: %w", err)
 	}
 
+	// プレースホルダー部分を置換
 	re := regexp.MustCompile(`<!--\[START POSTS\]-->.*<!--\[END POSTS\]-->`)
 	updated := re.ReplaceAllString(string(readme), fmt.Sprintf("<!--[START POSTS]-->\n%s\n<!--[END POSTS]-->", markdown))
 
 	// デバッグ: 置換後のREADME内容
 	fmt.Printf("置換後のREADME内容:\n%s\n", updated)
 
+	// 書き込み
 	return os.WriteFile(readmePath, []byte(updated), 0644)
 }
 
