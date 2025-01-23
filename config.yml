@@ -3,6 +3,6 @@
   template: |-
     **Qiita**
     {{range . -}}
-      * ![](./img/qiita.png) [{{ .Title }}]({{ .Link }})
+      * ![](./img/qiita.png) [{{ .Title }}]({{ .URL }})
     {{ end }}
   limit: 7
