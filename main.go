@@ -66,7 +66,6 @@ func fetchRSS(url string) ([]Post, error) {
 
 // READMEを更新
 func updateReadme(posts []Post, templateText, readmePath string, limit int) error {
-	// 投稿を日付順に並べ替え
 	sort.Slice(posts, func(i, j int) bool {
 		return posts[i].Date.After(posts[j].Date)
 	})
@@ -74,29 +73,31 @@ func updateReadme(posts []Post, templateText, readmePath string, limit int) erro
 		posts = posts[:limit]
 	}
 
-	// テンプレートを適用
 	tmpl, err := template.New("readme").Parse(templateText)
 	if err != nil {
-		return err
+		return fmt.Errorf("テンプレート解析エラー: %w", err)
 	}
 
 	var buf bytes.Buffer
 	if err := tmpl.Execute(&buf, posts); err != nil {
-		return err
+		return fmt.Errorf("テンプレート生成エラー: %w", err)
 	}
 	markdown := buf.String()
 
-	// READMEを読み込み
+	// デバッグ: 生成されたMarkdownを出力
+	fmt.Printf("生成されたMarkdown:\n%s\n", markdown)
+
 	readme, err := os.ReadFile(readmePath)
 	if err != nil {
-		return err
+		return fmt.Errorf("README読み込みエラー: %w", err)
 	}
 
-	// <!--[START POSTS]--> と <!--[END POSTS]--> の間を置換
 	re := regexp.MustCompile(`<!--\[START POSTS\]-->.*<!--\[END POSTS\]-->`)
 	updated := re.ReplaceAllString(string(readme), fmt.Sprintf("<!--[START POSTS]-->\n%s\n<!--[END POSTS]-->", markdown))
 
-	// 書き込み
+	// デバッグ: 置換後のREADME内容
+	fmt.Printf("置換後のREADME内容:\n%s\n", updated)
+
 	return os.WriteFile(readmePath, []byte(updated), 0644)
 }
 
