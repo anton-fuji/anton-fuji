@@ -1,0 +1,8 @@
+- urls:
+    - https://qiita.com/fujifuji1414/feed
+  template: |-
+    **Qiita**
+    {{range . -}}
+      * ![](./icon/qiita.png) [{{ .Title }}]({{ .Link }})
+    {{ end }}
+  limit: 7

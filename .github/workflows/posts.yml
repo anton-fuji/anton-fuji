@@ -28,5 +28,5 @@ jobs:
             - name: Commit and Push changes
               run: |
                 git add README.md
-                git commit -m "update posts"
+                git commit -m "update posts!"
                 git push origin main
