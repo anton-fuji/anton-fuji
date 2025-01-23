@@ -38,6 +38,6 @@
 
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=gruvbox" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedatk" alt="GitHub Trophies" />
 </div>
 
