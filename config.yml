@@ -5,4 +5,4 @@
     {{range . -}}
       * ![](./img/qiita.png) [{{ .Title }}]({{ .URL }})
     {{ end }}
-  limit: 7
+  limit: 5
