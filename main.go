@@ -11,7 +11,6 @@ import (
 	"time"
 )
 
-// QiitaのAtom構造体
 type QiitaAtom struct {
 	Entries []struct {
 		Title     string `xml:"title"`
@@ -20,14 +19,12 @@ type QiitaAtom struct {
 	} `xml:"entry"`
 }
 
-// Post構造体
 type Post struct {
 	Title string
 	Date  time.Time
 	URL   string
 }
 
-// Qiitaのフィードを取得して解析
 func fetchQiitaFeed(feedURL string) ([]Post, error) {
 	resp, err := http.Get(feedURL)
 	if err != nil {
@@ -58,7 +55,6 @@ func fetchQiitaFeed(feedURL string) ([]Post, error) {
 		})
 	}
 
-	// 日付順にソート
 	sort.Slice(posts, func(i, j int) bool {
 		return posts[i].Date.After(posts[j].Date)
 	})
@@ -69,13 +65,11 @@ func fetchQiitaFeed(feedURL string) ([]Post, error) {
 func main() {
 	const feedURL = "https://qiita.com/fujifuji1414/feed.atom"
 
-	// Qiitaフィードを取得
 	posts, err := fetchQiitaFeed(feedURL)
 	if err != nil {
 		log.Fatalf("フィード取得エラー: %v", err)
 	}
 
-	// 上位5件をMarkdown形式で整形
 	distMD := "**Recent Qiita Articles**\n"
 	for i, post := range posts {
 		if i >= 5 {
@@ -84,7 +78,6 @@ func main() {
 		distMD += fmt.Sprintf("- [%s](%s)\n", post.Title, post.URL)
 	}
 
-	// README.mdの更新
 	readme, err := os.ReadFile("README.md")
 	if err != nil {
 		log.Fatalf("README読み込みエラー: %v", err)

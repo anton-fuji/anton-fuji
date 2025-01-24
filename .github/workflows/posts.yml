@@ -1,0 +1,41 @@
+name: Posts Updater
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  update-posts:
+    runs-on: ubuntu-latest
+
+    steps:
+      # リポジトリをチェックアウト
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Gitの設定
+      - name: Git setting
+        run: |
+          git config --local user.email "anton-fuji@users.noreply.github.com"
+          git config --local user.name "anton-fuji"
+
+      # Goのセットアップ
+      - name: Set up Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: '1.23.2' # 必要に応じてGoのバージョンを変更
+
+      # 必要な依存関係のインストール（もしある場合）
+      - name: Install dependencies
+        run: go mod tidy
+
+      # Goプログラムを実行してREADME.mdを更新
+      - name: Run updater
+        run: go run main.go
+
+      # README.mdをコミットしてプッシュ
+      - name: Commit and push changes
+        run: |
+          git add README.md
+          git commit -m "update posts!"
+          git push origin main
