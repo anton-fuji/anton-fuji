@@ -19,7 +19,7 @@
 - I’m currently diving into **Go!** 🚀
 ## 📝 My Posts
 <!--[START POSTS]-->
-****Recent Qiita Articles****
+****Recommend Qiita Articles****
 - ![](img/qiita.png) [【Go言語】Goの概要・基本構文を押さえる](https://qiita.com/fujifuji1414/items/1d37ee8d8626e1d2fa35)
 - ![](img/qiita.png) [【Go言語】Goのメモリ管理の全貌を徹底解剖](https://qiita.com/fujifuji1414/items/359d754f9ab0ad2ccbb7)
 - ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証](https://qiita.com/fujifuji1414/items/98af4c0529430f112209)
@@ -28,7 +28,10 @@
 <!--[END POSTS]-->
 <br>
 
+<!--[START POSTS]-->
+**Recent Qiita Articles**
 
+<!--[END POSTS]-->
 ## 🌱Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react, githubactions" />
 <br>
@@ -67,12 +70,5 @@
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
 </div>
 
-<!--[START POSTS]-->
-**Recent Qiita Articles**
-- [【Go言語】Goで作るタイピングゲーム]()
-- [【Go言語】Goで学ぶOAuth認証]()
-- [OSの仕組みと魅力について知る]()
-- [【Go言語】Goのメモリ管理の全貌を徹底解剖]()
-<!--[END POSTS]-->phies" />
-</div>
+
 

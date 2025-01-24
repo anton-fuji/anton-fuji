@@ -75,7 +75,7 @@ func main() {
 		if i >= 5 {
 			break
 		}
-		distMD += fmt.Sprintf("- [%s](%s)\n", post.Title, post.URL)
+		distMD += fmt.Sprintf("- ![](img/qiita.png) [%s](%s)\n", post.Title, post.URL)
 	}
 
 	readme, err := os.ReadFile("README.md")
