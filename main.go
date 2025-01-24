@@ -1,63 +1,60 @@
 package main
 
 import (
-	"bytes"
 	"encoding/xml"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"os"
-	"regexp"
 	"sort"
-	"text/template"
 	"time"
 )
 
-// 記事構造体
+// QiitaのAtom構造体
+type QiitaAtom struct {
+	Entries []struct {
+		Title     string `xml:"title"`
+		Link      string `xml:"link"`
+		Published string `xml:"published"`
+	} `xml:"entry"`
+}
+
+// Post構造体
 type Post struct {
 	Title string
 	Date  time.Time
 	URL   string
 }
 
-// RSS構造体
-type RSS struct {
-	Items []struct {
-		Title   string `xml:"title"`
-		PubDate string `xml:"pubDate"`
-		Link    string `xml:"link"`
-	} `xml:"item"`
-}
-
-// RSSフィードを取得
-func fetchRSS(url string) ([]Post, error) {
-	resp, err := http.Get(url)
+// Qiitaのフィードを取得して解析
+func fetchQiitaFeed(feedURL string) ([]Post, error) {
+	resp, err := http.Get(feedURL)
 	if err != nil {
-		return nil, fmt.Errorf("RSSデータ取得エラー: %w", err)
+		return nil, fmt.Errorf("Qiitaフィード取得エラー: %w", err)
 	}
 	defer resp.Body.Close()
 
 	data, err := io.ReadAll(resp.Body)
 	if err != nil {
-		return nil, fmt.Errorf("RSSデータ読み込みエラー: %w", err)
+		return nil, fmt.Errorf("フィードデータ読み込みエラー: %w", err)
 	}
 
-	var feed RSS
+	var feed QiitaAtom
 	if err := xml.Unmarshal(data, &feed); err != nil {
-		return nil, fmt.Errorf("RSS解析エラー: %w", err)
+		return nil, fmt.Errorf("フィード解析エラー: %w", err)
 	}
 
 	var posts []Post
-	for _, item := range feed.Items {
-		date, err := time.Parse(time.RFC1123Z, item.PubDate)
+	for _, entry := range feed.Entries {
+		date, err := time.Parse(time.RFC3339, entry.Published)
 		if err != nil {
 			continue
 		}
 		posts = append(posts, Post{
-			Title: item.Title,
+			Title: entry.Title,
 			Date:  date,
-			URL:   item.Link,
+			URL:   entry.Link,
 		})
 	}
 
@@ -69,58 +66,44 @@ func fetchRSS(url string) ([]Post, error) {
 	return posts, nil
 }
 
-// READMEを更新
-func updateReadme(posts []Post, templateText, readmePath string, limit int) error {
-	if len(posts) > limit {
-		posts = posts[:limit]
-	}
+func main() {
+	const feedURL = "https://qiita.com/fujifuji1414/feed.atom"
 
-	// テンプレートを適用
-	tmpl, err := template.New("readme").Parse(templateText)
+	// Qiitaフィードを取得
+	posts, err := fetchQiitaFeed(feedURL)
 	if err != nil {
-		return fmt.Errorf("テンプレート解析エラー: %w", err)
+		log.Fatalf("フィード取得エラー: %v", err)
 	}
 
-	var buf bytes.Buffer
-	if err := tmpl.Execute(&buf, posts); err != nil {
-		return fmt.Errorf("テンプレート生成エラー: %w", err)
+	// 上位5件をMarkdown形式で整形
+	distMD := "**Recent Qiita Articles**\n"
+	for i, post := range posts {
+		if i >= 5 {
+			break
+		}
+		distMD += fmt.Sprintf("- [%s](%s)\n", post.Title, post.URL)
 	}
-	markdown := buf.String()
 
-	// READMEを読み込み
-	readme, err := os.ReadFile(readmePath)
+	// README.mdの更新
+	readme, err := os.ReadFile("README.md")
 	if err != nil {
-		return fmt.Errorf("README読み込みエラー: %w", err)
+		log.Fatalf("README読み込みエラー: %v", err)
 	}
 
-	// プレースホルダー部分を置換
-	re := regexp.MustCompile(`<!--\[START POSTS\]-->.*<!--\[END POSTS\]-->`)
-	updated := re.ReplaceAllString(string(readme), fmt.Sprintf("<!--[START POSTS]-->\n%s\n<!--[END POSTS]-->", markdown))
+	newReadme := `<!--[START POSTS]-->` + "\n" + distMD + `<!--[END POSTS]-->`
+	readmeContent := string(readme)
+	readmeContent = replaceBetween(readmeContent, "<!--[START POSTS]-->", "<!--[END POSTS]-->", newReadme)
 
-	// READMEに書き込み
-	return os.WriteFile(readmePath, []byte(updated), 0644)
+	if err := os.WriteFile("README.md", []byte(readmeContent), 0644); err != nil {
+		log.Fatalf("README書き込みエラー: %v", err)
+	}
+
+	fmt.Println("README.md が更新されました！")
 }
 
-func main() {
-	const feedURL = "https://qiita.com/fujifuji1414/feed"
-	const readmePath = "README.md"
-	const maxPosts = 5
-	const templateText = `**Qiita**
-{{range . -}}
-- ![](img/qiita.png) [{{.Title}}]({{.URL}})
-{{end}}
-`
-
-	// RSSを取得
-	posts, err := fetchRSS(feedURL)
-	if err != nil {
-		log.Fatalf("RSSの取得中にエラー: %v", err)
-	}
-
-	// READMEを更新
-	if err := updateReadme(posts, templateText, readmePath, maxPosts); err != nil {
-		log.Fatalf("READMEの更新中にエラー: %v", err)
-	}
-
-	fmt.Println("README.md が正常に更新されました！")
+// 指定したプレースホルダー間の文字列を置換
+func replaceBetween(content, start, end, newContent string) string {
+	startIdx := len(start) + len(content[:len(content)-len(start)])
+	endIdx := len(content) - len(end)
+	return content[:startIdx] + newContent + content[endIdx:]
 }

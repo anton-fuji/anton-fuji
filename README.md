@@ -67,3 +67,12 @@
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
 </div>
 
+<!--[START POSTS]-->
+**Recent Qiita Articles**
+- [【Go言語】Goで作るタイピングゲーム]()
+- [【Go言語】Goで学ぶOAuth認証]()
+- [OSの仕組みと魅力について知る]()
+- [【Go言語】Goのメモリ管理の全貌を徹底解剖]()
+<!--[END POSTS]-->phies" />
+</div>
+

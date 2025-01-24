@@ -1,5 +1,5 @@
 - urls:
-    - https://qiita.com/fujifuji1414/feed
+    - https://qiita.com/fujifuji1414/feed.atom
   template: |-
     **Qiita**
     {{range . -}}
