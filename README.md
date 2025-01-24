@@ -17,7 +17,7 @@
 
 - 👽 I’m passionate about backend development.
 - I’m currently diving into **Go!** 🚀
-## 📝 Latest Qiita Posts
+## 📝 My Posts
 <!--[START POSTS]-->
 **Qiita**
 - ![](img/qiita.png) [【Go言語】Goの概要・基本構文を押さえる](https://qiita.com/fujifuji1414/items/1d37ee8d8626e1d2fa35)
