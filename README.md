@@ -29,7 +29,7 @@
 <br>
 
 <!--[START POSTS]-->
-**Recent Qiita Articles**
+
 
 <!--[END POSTS]-->
 ## 🌱Skills
