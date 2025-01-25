@@ -6,11 +6,11 @@
   <!-- <a href="https://github.com/anton-fuji">
     <img height="20" src="https://img.shields.io/github/followers/Keichan15?label=follow&logo=github&style=flat" />
   </a> -->
-  <a href="http://qiita.com/fujifuji1414">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/fujifuji1414/posts.svg" />
+  <a href="https://qiita.com/fujifuji1414">
+    <img src="https://badgen.org/img/qiita/fujifuji1414/articles?style=plastic" alt="Articles" />
   </a>
-  <a href="http://qiita.com/fujifuji1414">
-    <img height="20" src="https://qiita-badge.apiapi.app/s/fujifuji1414/contributions.svg" />
+  <a href="https://qiita.com/fujifuji1414">
+    <img src="https://badgen.org/img/qiita/fujifuji1414/contributions?style=plastic" alt="Contributions" />
   </a>
 </p>
 <br>
