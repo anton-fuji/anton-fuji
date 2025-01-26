@@ -26,7 +26,7 @@
 - ![](img/qiita.png) [【Go言語】Goの並行処理を理解する](https://qiita.com/fujifuji1414/items/4b443f0666e7d558e0a9)
 <br>
 
-<!--[START POSTS]-->
+
 <!--[START POSTS]-->
 **Recent Qiita Articles**
 - ![](img/qiita.png) [【Go言語】Qiitaの投稿をGitHubのプロフィールに反映させてみた]()
@@ -34,7 +34,7 @@
 - ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証]()
 - ![](img/qiita.png) [OSの仕組みと魅力について知る]()
 <!--[END POSTS]-->
-<!--[END POSTS]-->
+
 ## 🌱Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react, githubactions" />
 <br>
