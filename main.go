@@ -94,9 +94,28 @@ func main() {
 	fmt.Println("README.md が更新されました！")
 }
 
-// 指定したプレースホルダー間の文字列を置換
 func replaceBetween(content, start, end, newContent string) string {
-	startIdx := len(start) + len(content[:len(content)-len(start)])
-	endIdx := len(content) - len(end)
-	return content[:startIdx] + newContent + content[endIdx:]
+	startIdx := indexOf(content, start) + len(start)
+	endIdx := indexOf(content, end)
+	if startIdx == -1 || endIdx == -1 || startIdx >= endIdx {
+		return content // プレースホルダーが見つからない場合はそのまま返す
+	}
+	return content[:startIdx] + "\n" + newContent + "\n" + content[endIdx:]
+}
+
+// 部分文字列の開始インデックスを取得
+func indexOf(content, substr string) int {
+	return findIndex(content, substr)
+}
+
+// 部分文字列を検索して最初に見つかった位置を返す
+func findIndex(content, substr string) int {
+	idx := -1
+	for i := 0; i+len(substr) <= len(content); i++ {
+		if content[i:i+len(substr)] == substr {
+			idx = i
+			break
+		}
+	}
+	return idx
 }

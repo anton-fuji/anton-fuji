@@ -71,14 +71,7 @@
 
 
 
-<!--[START POSTS]-->
-**Recent Qiita Articles**
-- ![](img/qiita.png) [【Go言語】Qiitaの投稿をGitHubのプロフィールに反映させてみた]()
-- ![](img/qiita.png) [【Go言語】Goで作るタイピングゲーム]()
-- ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証]()
-- ![](img/qiita.png) [OSの仕組みと魅力について知る]()
-<!--[END POSTS]-->es" />
-</div>
+
 
 
 
