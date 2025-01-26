@@ -27,8 +27,13 @@
 <br>
 
 <!--[START POSTS]-->
-
-
+<!--[START POSTS]-->
+**Recent Qiita Articles**
+- ![](img/qiita.png) [【Go言語】Qiitaの投稿をGitHubのプロフィールに反映させてみた]()
+- ![](img/qiita.png) [【Go言語】Goで作るタイピングゲーム]()
+- ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証]()
+- ![](img/qiita.png) [OSの仕組みと魅力について知る]()
+<!--[END POSTS]-->
 <!--[END POSTS]-->
 ## 🌱Skills
 <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react, githubactions" />
