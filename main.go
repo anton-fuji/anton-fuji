@@ -13,8 +13,10 @@ import (
 
 type QiitaAtom struct {
 	Entries []struct {
-		Title     string `xml:"title"`
-		Link      string `xml:"link"`
+		Title string `xml:"title"`
+		Link  struct {
+			Href string `xml:"href,attr"`
+		} `xml:"link"`
 		Published string `xml:"published"`
 	} `xml:"entry"`
 }
@@ -51,7 +53,7 @@ func fetchQiitaFeed(feedURL string) ([]Post, error) {
 		posts = append(posts, Post{
 			Title: entry.Title,
 			Date:  date,
-			URL:   entry.Link,
+			URL:   entry.Link.Href,
 		})
 	}
 
