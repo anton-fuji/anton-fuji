@@ -30,10 +30,11 @@
 <!--[START POSTS]-->
 <!--[START POSTS]-->
 **Recent Qiita Articles**
-- ![](img/qiita.png) [【Go言語】Qiitaの投稿をGitHubのプロフィールに反映させてみた]()
-- ![](img/qiita.png) [【Go言語】Goで作るタイピングゲーム]()
-- ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証]()
-- ![](img/qiita.png) [OSの仕組みと魅力について知る]()
+- ![](img/qiita.png) [ブラウザでWebサイトが表示されるまでの仕組みを整理してみた](https://qiita.com/fujifuji1414/items/f9c53b451fa4890b8bfc)
+- ![](img/qiita.png) [【Go言語】Qiitaの投稿をGitHubのプロフィールに反映させてみた](https://qiita.com/fujifuji1414/items/f9606bb184951d4a3fb2)
+- ![](img/qiita.png) [【Go言語】Goで作るタイピングゲーム](https://qiita.com/fujifuji1414/items/8717c4c4026772e787bd)
+- ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証](https://qiita.com/fujifuji1414/items/98af4c0529430f112209)
+<!--[END POSTS]-->
 <!--[END POSTS]-->
 <!--[END POSTS]-->
 
