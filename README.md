@@ -21,8 +21,6 @@
 ****Recommend Qiita Articles****
 - ![](img/qiita.png) [【Go言語】Goの概要・基本構文を押さえる](https://qiita.com/fujifuji1414/items/1d37ee8d8626e1d2fa35)
 - ![](img/qiita.png) [【Go言語】Goのメモリ管理の全貌を徹底解剖](https://qiita.com/fujifuji1414/items/359d754f9ab0ad2ccbb7)
-- ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証](https://qiita.com/fujifuji1414/items/98af4c0529430f112209)
-- ![](img/qiita.png) [OSの仕組みと魅力について知る](https://qiita.com/fujifuji1414/items/5373f3da51465c82d0d4)
 - ![](img/qiita.png) [【Go言語】Goの並行処理を理解する](https://qiita.com/fujifuji1414/items/4b443f0666e7d558e0a9)
 <br>
 
