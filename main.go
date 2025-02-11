@@ -11,7 +11,7 @@ import (
 	"time"
 )
 
-type QiitaAtom struct {
+type AtomFeed struct {
 	Entries []struct {
 		Title string `xml:"title"`
 		Link  struct {
@@ -22,15 +22,16 @@ type QiitaAtom struct {
 }
 
 type Post struct {
-	Title string
-	Date  time.Time
-	URL   string
+	Title  string
+	Date   time.Time
+	URL    string
+	Source string
 }
 
-func fetchQiitaFeed(feedURL string) ([]Post, error) {
+func fetchFeed(feedURL, source string) ([]Post, error) {
 	resp, err := http.Get(feedURL)
 	if err != nil {
-		return nil, fmt.Errorf("Qiitaフィード取得エラー: %w", err)
+		return nil, fmt.Errorf("%s フィード取得エラー: %w", source, err)
 	}
 	defer resp.Body.Close()
 
@@ -39,7 +40,7 @@ func fetchQiitaFeed(feedURL string) ([]Post, error) {
 		return nil, fmt.Errorf("フィードデータ読み込みエラー: %w", err)
 	}
 
-	var feed QiitaAtom
+	var feed AtomFeed
 	if err := xml.Unmarshal(data, &feed); err != nil {
 		return nil, fmt.Errorf("フィード解析エラー: %w", err)
 	}
@@ -51,33 +52,50 @@ func fetchQiitaFeed(feedURL string) ([]Post, error) {
 			continue
 		}
 		posts = append(posts, Post{
-			Title: entry.Title,
-			Date:  date,
-			URL:   entry.Link.Href,
+			Title:  entry.Title,
+			Date:   date,
+			URL:    entry.Link.Href,
+			Source: source,
 		})
 	}
 
-	sort.Slice(posts, func(i, j int) bool {
-		return posts[i].Date.After(posts[j].Date)
-	})
-
+	// sort.Slice(posts, func(i, j int) bool {
+	// 	return posts[i].Date.After(posts[j].Date)
+	// })
 	return posts, nil
 }
 
 func main() {
-	const feedURL = "https://qiita.com/fujifuji1414/feed.atom"
+	const (
+		QiitaFeedURL = "https://qiita.com/fujifuji1414/feed.atom"
+		ZennFeedURL  = "https://zenn.dev/fuuji/feed"
+	)
 
-	posts, err := fetchQiitaFeed(feedURL)
+	qiitaPosts, err := fetchFeed(QiitaFeedURL, "Qiita")
 	if err != nil {
 		log.Fatalf("フィード取得エラー: %v", err)
 	}
 
-	distMD := "**Recent Qiita Articles**\n"
+	zennPosts, err := fetchFeed(ZennFeedURL, "Zenn")
+	if err != nil {
+		log.Fatalf("フィード取得エラー: %v", err)
+	}
+
+	posts := append(qiitaPosts, zennPosts...)
+	sort.Slice(posts, func(i, j int) bool {
+		return posts[i].Date.After(posts[j].Date)
+	})
+
+	distMD := "**Recent Articles**\n"
 	for i, post := range posts {
 		if i >= 5 {
 			break
 		}
-		distMD += fmt.Sprintf("- ![](img/qiita.png) [%s](%s)\n", post.Title, post.URL)
+		icon := "qiita.png"
+		if post.Source == "Zenn" {
+			icon = "zenn.png"
+		}
+		distMD += fmt.Sprintf("- ![](img/%s) [%s](%s)\n", icon, post.Title, post.URL)
 	}
 
 	readme, err := os.ReadFile("README.md")
