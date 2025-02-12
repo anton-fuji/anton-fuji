@@ -1,67 +1,47 @@
 package main
 
 import (
-	"encoding/xml"
 	"fmt"
-	"io"
 	"log"
-	"net/http"
 	"os"
 	"sort"
-	"time"
-)
+	"strings"
 
-type AtomFeed struct {
-	Entries []struct {
-		Title string `xml:"title"`
-		Link  struct {
-			Href string `xml:"href,attr"`
-		} `xml:"link"`
-		Published string `xml:"published"`
-	} `xml:"entry"`
-}
+	"github.com/mmcdole/gofeed"
+)
 
 type Post struct {
 	Title  string
-	Date   time.Time
+	Date   string
 	URL    string
 	Source string
 }
 
 func fetchFeed(feedURL, source string) ([]Post, error) {
-	resp, err := http.Get(feedURL)
+	fp := gofeed.NewParser()
+	feed, err := fp.ParseURL(feedURL)
 	if err != nil {
 		return nil, fmt.Errorf("%s フィード取得エラー: %w", source, err)
 	}
-	defer resp.Body.Close()
-
-	data, err := io.ReadAll(resp.Body)
-	if err != nil {
-		return nil, fmt.Errorf("フィードデータ読み込みエラー: %w", err)
-	}
-
-	var feed AtomFeed
-	if err := xml.Unmarshal(data, &feed); err != nil {
-		return nil, fmt.Errorf("フィード解析エラー: %w", err)
-	}
 
 	var posts []Post
-	for _, entry := range feed.Entries {
-		date, err := time.Parse(time.RFC3339, entry.Published)
-		if err != nil {
-			continue
+	for _, item := range feed.Items {
+		date := item.Published // `gofeed` が自動的に日付を解析
+		if item.UpdatedParsed != nil {
+			date = item.UpdatedParsed.Format("2006-01-02 15:04:05")
+		} else if item.PublishedParsed != nil {
+			date = item.PublishedParsed.Format("2006-01-02 15:04:05")
 		}
+
 		posts = append(posts, Post{
-			Title:  entry.Title,
+			Title:  item.Title,
 			Date:   date,
-			URL:    entry.Link.Href,
+			URL:    item.Link,
 			Source: source,
 		})
 	}
 
-	// sort.Slice(posts, func(i, j int) bool {
-	// 	return posts[i].Date.After(posts[j].Date)
-	// })
+	fmt.Printf("✅ %s の記事数: %d\n", source, len(posts))
 	return posts, nil
 }
 
@@ -73,22 +53,22 @@ func main() {
 
 	qiitaPosts, err := fetchFeed(QiitaFeedURL, "Qiita")
 	if err != nil {
-		log.Fatalf("フィード取得エラー: %v", err)
+		log.Fatalf("Qiita フィード取得エラー: %v", err)
 	}
 
 	zennPosts, err := fetchFeed(ZennFeedURL, "Zenn")
 	if err != nil {
-		log.Fatalf("フィード取得エラー: %v", err)
+		log.Fatalf("Zenn フィード取得エラー: %v", err)
 	}
 
 	posts := append(qiitaPosts, zennPosts...)
 	sort.Slice(posts, func(i, j int) bool {
-		return posts[i].Date.After(posts[j].Date)
+		return posts[i].Date > posts[j].Date
 	})
 
 	distMD := "**Recent Articles**\n"
 	for i, post := range posts {
-		if i >= 5 {
+		if i >= 7 {
 			break
 		}
 		icon := "qiita.png"
@@ -107,35 +87,40 @@ func main() {
 	readmeContent := string(readme)
 	readmeContent = replaceBetween(readmeContent, "<!--[START POSTS]-->", "<!--[END POSTS]-->", newReadme)
 
-	if err := os.WriteFile("README.md", []byte(readmeContent), 0644); err != nil {
-		log.Fatalf("README書き込みエラー: %v", err)
+	if readmeContent != string(readme) {
+		if err := os.WriteFile("README.md", []byte(readmeContent), 0644); err != nil {
+			log.Fatalf("README書き込みエラー: %v", err)
+		}
+		fmt.Println("README.md が更新されました！")
+	} else {
+		fmt.Println("README.md に変更はありません。")
 	}
-
-	fmt.Println("README.md が更新されました！")
 }
 
+// 指定されたプレースホルダーの間の内容を置き換える
 func replaceBetween(content, start, end, newContent string) string {
-	startIdx := indexOf(content, start) + len(start)
+	startIdx := indexOf(content, start)
 	endIdx := indexOf(content, end)
+
 	if startIdx == -1 || endIdx == -1 || startIdx >= endIdx {
-		return content // プレースホルダーが見つからない場合はそのまま返す
+		fmt.Println("⚠️ プレースホルダーが見つからないため、README は変更されません。")
+		return content
 	}
-	return content[:startIdx] + "\n" + newContent + "\n" + content[endIdx:]
+
+	// `start` と `end` を含む範囲を置き換え
+	result := content[:startIdx+len(start)] + "\n" + newContent + "\n" + content[endIdx:]
+
+	// デバッグ: 変更があるかチェック
+	if result == content {
+		fmt.Println("⚠️ `replaceBetween` の結果に変更がありません！")
+	} else {
+		fmt.Println("✅ `replaceBetween` で変更が適用されました！")
+	}
+
+	return result
 }
 
 // 部分文字列の開始インデックスを取得
 func indexOf(content, substr string) int {
-	return findIndex(content, substr)
-}
-
-// 部分文字列を検索して最初に見つかった位置を返す
-func findIndex(content, substr string) int {
-	idx := -1
-	for i := 0; i+len(substr) <= len(content); i++ {
-		if content[i:i+len(substr)] == substr {
-			idx = i
-			break
-		}
-	}
-	return idx
+	return strings.Index(content, substr)
 }
