@@ -1,4 +1,4 @@
-## Hi👋 Welcome to my GitHub! 😊
+## Hi👋 I'm Fuji 🐈‍⬛
 <p align="left">
   <a href="https://github.com/anton-fuji">
     <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji" />
@@ -37,7 +37,7 @@
 
 
 ## 🌱Skills
-<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react, githubactions" />
+<img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,docker,aws,react,githubactions,linux,mysql" />
 <br>
 
 
@@ -69,6 +69,7 @@
 </div>
 <br>
 
+[![GitHub Streak](https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3)](https://git.io/streak-stats)
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
