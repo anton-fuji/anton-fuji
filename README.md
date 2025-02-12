@@ -70,7 +70,11 @@
 </div>
 <br>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3)](https://git.io/streak-stats)
+<p align="center">
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
+  </a>
+</p>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
