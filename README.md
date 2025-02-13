@@ -18,6 +18,14 @@
 
 - 👽 I’m passionate about backend development.
 - I’m currently diving into **Go!** 🚀
+
+## 🔗 My Social Streams
+[<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
+[<img src="./img/social/x.svg" width="40" height="40" />](https://x.com/sXq7XBrxuB87199)
+[<img src="./img/social/qiita.png" width="40" height="40" />](https://qiita.com/fujifuji1414)
+[<img src="./img/social/zenn.svg" width="40" height="40" />](https://zenn.dev/fuuji)
+[<img src="./img/social/bluesky.svg" width="40" height="40" />](https://bsky.app/profile/fuji-fuji.bsky.social)
+
 ## 📝 My Posts
 ****Recommend Qiita Articles****
 - ![](img/qiita.png) [【Go言語】Goの概要・基本構文を押さえる](https://qiita.com/fujifuji1414/items/1d37ee8d8626e1d2fa35)
@@ -26,8 +34,6 @@
 <br>
 
 
-
-<!--[START POSTS]-->
 <!--[START POSTS]-->
 **Recent Articles**
 - ![](img/zenn.png) [Dockerイメージ軽量化のアーキテクチャ設計を考える](https://zenn.dev/fuuji/articles/9eb7f2aefcd6c5)
@@ -36,7 +42,7 @@
 - ![](img/qiita.png) [【Go言語】Goで作るタイピングゲーム](https://qiita.com/fujifuji1414/items/8717c4c4026772e787bd)
 - ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証](https://qiita.com/fujifuji1414/items/98af4c0529430f112209)
 <!--[END POSTS]-->
-<!--[END POSTS]-->
+
 
 
 ## 🌱Skills
