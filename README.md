@@ -3,7 +3,7 @@
   <a href="https://github.com/anton-fuji">
     <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji" />
   </a>
-  <a href="https://zenn.dev/kou_pg_0131"><img src="https://badgen.org/img/zenn/fuuji/articles?style=plastic" alt="Articles" /></a>
+  <a href="https://zenn.dev/kou_pg_0131"><img src="https://badgen.org/img/zenn/fuuji/articles?style=plastic" alt="Zenn Likes" /></a>
   <!-- <a href="https://github.com/anton-fuji">
     <img height="20" src="https://img.shields.io/github/followers/Keichan15?label=follow&logo=github&style=flat" />
   </a> -->
