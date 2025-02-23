@@ -4,9 +4,6 @@
     <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji" />
   </a>
   <a href="https://zenn.dev/fuuji"><img src="https://badgen.org/img/zenn/fuuji/likes?style=plastic" alt="Zenn Likes" /></a>
-  <!-- <a href="https://github.com/anton-fuji">
-    <img height="20" src="https://img.shields.io/github/followers/Keichan15?label=follow&logo=github&style=flat" />
-  </a> -->
   <a href="https://qiita.com/fujifuji1414">
     <img src="https://badgen.org/img/qiita/fujifuji1414/articles?style=plastic" alt="Articles" />
   </a>
