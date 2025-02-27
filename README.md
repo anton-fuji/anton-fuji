@@ -50,20 +50,13 @@
 
 
 ## 🧑🏼‍💻 Activities
-<div align="center">
-  <table>
-    <tr>
-      <td align="left">
-        <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
-      </td>
-      <td align="center">
-        <a href="https://github.com/lowlighter/metrics">
-          <img width="425" src="/github-metrics.svg" />
-        </a>
-      </td>
-    </tr>
-  </table>
+<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
+  <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
+  <a href="https://github.com/lowlighter/metrics">
+    <img width="425" src="/github-metrics.svg" />
+  </a>
 </div>
+
 
 
 
