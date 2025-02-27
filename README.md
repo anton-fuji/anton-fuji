@@ -1,5 +1,6 @@
-## Hi👋 I'm Fuji 🐈‍⬛
-<p align="left">
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=25&pause=1000&color=ECF7F5&width=435&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B" alt="Typing SVG" /></a>
+  <p align="left">
+
   <a href="https://github.com/anton-fuji">
     <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji" />
   </a>
@@ -13,8 +14,8 @@
 </p>
 <br>
 
-- 👽 I’m passionate about backend development.
-- I’m currently diving into **Go!** 🚀
+<!-- - 👽 I’m passionate about backend development.
+- I’m currently diving into **Go!** 🚀 -->
 
 ## 🔗 My Social Streams
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
@@ -49,10 +50,21 @@
 
 
 ## 🧑🏼‍💻 Activities
-<div align="left"> 
-  <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
-  <img alt="github stats" height="170px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=anton-fuji&theme=vue-dark&layout=compact" />
+<div align="center">
+  <table>
+    <tr>
+      <td align="left">
+        <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
+      </td>
+      <td align="center">
+        <a href="https://github.com/lowlighter/metrics">
+          <img width="425" src="/github-metrics.svg" />
+        </a>
+      </td>
+    </tr>
+  </table>
 </div>
+
 
 
 ### 📊 My GitHub Stats
