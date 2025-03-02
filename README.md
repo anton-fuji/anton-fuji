@@ -15,7 +15,7 @@
 <br>
 
 <!-- - 👽 I’m passionate about backend development.
-- I’m currently diving into **Go!** 🚀 -->
+- I’m currently diving into **Go!** -->
 
 ## 🔗 My Social Streams
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
