@@ -1,8 +1,8 @@
 name: Posts Updater
 
-on:
-  schedule:
-    - cron: '0 0 * * *'
+# on:
+#   schedule:
+#     - cron: '0 0 * * *'
 
 jobs:
   update-posts:

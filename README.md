@@ -14,8 +14,6 @@
 </p>
 <br>
 
-<!-- - 👽 I’m passionate about backend development.
-- I’m currently diving into **Go!** -->
 
 ## 🔗 My Social Streams
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
@@ -33,7 +31,7 @@
 
 
 
-<!--[START POSTS]-->
+
 <!--[START POSTS]-->
 **Recent Articles**
 - ![](img/zenn.png) [Dockerイメージの安全性を高める10のセキュリティハック](https://zenn.dev/fuuji/articles/3909c8d444eaa9)
@@ -43,7 +41,7 @@
 - ![](img/qiita.png) [【Go言語】Goで作るタイピングゲーム](https://qiita.com/fujifuji1414/items/8717c4c4026772e787bd)
 - ![](img/qiita.png) [【Go言語】Goで学ぶOAuth認証](https://qiita.com/fujifuji1414/items/98af4c0529430f112209)
 <!--[END POSTS]-->
-<!--[END POSTS]-->
+
 
 
 
@@ -53,14 +51,21 @@
 
 
 ## 🧑🏼‍💻 Activities
-<div align="center" style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px;">
-  <img alt="Top Langs" height="170px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
-  <a href="https://github.com/lowlighter/metrics">
-    <img width="425" src="/github-metrics.svg" />
-  </a>
+<div align="center">
+  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; align-items: center;">
+    <div style="display: flex; flex-direction: column; gap: 20px;">
+      <!-- GitHub Stats -->
+      <img alt="Top Langs" width="350px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
+            <!-- ストリーク -->
+      <a href="https://git.io/streak-stats">
+        <img src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" width="350px" />
+      </a>
+    </div>
+    <a href="https://github.com/lowlighter/metrics">
+      <img width="400px" src="/github-metrics.svg" />
+    </a>
+  </div>
 </div>
-
-
 
 
 ### 📊 My GitHub Stats
@@ -77,18 +82,13 @@
   </div>
 </div>
 
-<div align="center">
+<!-- <div align="center">
   <h3>📈 Contribution Activity</h3>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anton-fuji&theme=github_dark" alt="Contribution Stats Card" width="390" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset=9" alt="Most Productive Time Card" width="390" />
 </div>
-<br>
+<br> -->
 
-<p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
-  </a>
-</p>
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
