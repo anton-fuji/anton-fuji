@@ -66,10 +66,11 @@
 </div>
 
 
-### 📊 My GitHub Stats
-
-<div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
+<diva align="center">
+  <h3>📊 My GitHub Stats</h3>
+  <div align="center">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
+  </div>
 </div>
 
 <div align="center">
@@ -91,5 +92,6 @@
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
 </div>
+
 
 
