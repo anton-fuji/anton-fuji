@@ -65,17 +65,14 @@
 </p>
 
 
-
-<diva align="center">
-  <h3>📊 My GitHub Stats</h3>
-  <div align="center">
+## 📊 My GitHub Stats
+<div align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
-  </div>
 </div>
 
 <div align="center">
   <h3>📌 Language Insights</h3>
-  <div>
+  <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark" alt="Top Languages Used in Repository Card" width="390" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark" alt="Top Languages in Commits Card" width="390" />
   </div>
