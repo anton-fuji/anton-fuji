@@ -68,8 +68,6 @@
 </p>
 
 
-
-## 📊 My GitHub Stats
 <div align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
 </div>
