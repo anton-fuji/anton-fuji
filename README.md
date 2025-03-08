@@ -51,27 +51,31 @@
 
 
 ## 🧑🏼‍💻 Activities
-<p align="center">
-    <p align="right">
-      <a href="https://github.com/lowlighter/metrics">
-        <img width="400px" src="/github-metrics.svg" />
-      </a>
-    </p>
+<div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: flex-start;">
+  
+  <!-- 左側 (GitHub Stats + Streak) -->
+  <div style="display: flex; flex-direction: column; gap: 10px;">
     <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact">
-      <img width="350px" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
+      <img width="350px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
     </a>
-    <br>
     <a href="https://git.io/streak-stats">
-      <img width="350px" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
+      <img width="350px" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
     </a>
-</p>
+  </div>
 
-<br>
+  <!-- 右側 (Metrics) -->
+  <a href="https://github.com/lowlighter/metrics">
+    <img width="400px" src="/github-metrics.svg" />
+  </a>
 
-<h2 align="center">📊 My GitHub Stats</h2>
+</div>
+
+
+## 📊 My GitHub Stats
 <div align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
 </div>
+
 
 <div align="center">
   <h3>📌 Language Insights</h3>
