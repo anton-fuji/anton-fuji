@@ -52,9 +52,11 @@
 
 ## 🧑🏼‍💻 Activities
 <p align="center">
-    <a href="https://github.com/lowlighter/metrics">
-      <img width="400px" align="right" src="/github-metrics.svg" />
-    </a>
+    <p align="right">
+      <a href="https://github.com/lowlighter/metrics">
+        <img width="400px" src="/github-metrics.svg" />
+      </a>
+    </p>
     <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact">
       <img width="350px" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
     </a>
@@ -64,8 +66,9 @@
     </a>
 </p>
 
+<br>
 
-## 📊 My GitHub Stats
+<h2 align="center">📊 My GitHub Stats</h2>
 <div align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
 </div>
@@ -78,17 +81,15 @@
   </div>
 </div>
 
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
+</div>
+
+
 <!-- <div align="center">
   <h3>📈 Contribution Activity</h3>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anton-fuji&theme=github_dark" alt="Contribution Stats Card" width="390" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset=9" alt="Most Productive Time Card" width="390" />
 </div>
 <br> -->
-
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
-</div>
-
-
 
