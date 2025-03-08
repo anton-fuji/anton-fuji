@@ -53,7 +53,7 @@
 ## 🧑🏼‍💻 Activities
 <div align="center">
   <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; align-items: center;">
-    <div style="display: flex; flex-direction: column; gap: 20px;">
+    <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
       <img alt="GitHub Stats" width="350px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
       <a href="https://git.io/streak-stats">
         <img src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" width="350px" />
