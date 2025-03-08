@@ -51,24 +51,22 @@
 
 
 ## 🧑🏼‍💻 Activities
-<div align="center" style="display: flex; justify-content: center; gap: 20px; align-items: flex-start;">
-  
-  <!-- 左側 (GitHub Stats + Streak) -->
-  <div style="display: flex; flex-direction: column; gap: 10px;">
-    <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact">
-      <img width="350px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
-    </a>
-    <a href="https://git.io/streak-stats">
-      <img width="350px" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
-    </a>
-  </div>
-
+<p align="center">
   <!-- 右側 (Metrics) -->
   <a href="https://github.com/lowlighter/metrics">
-    <img width="400px" src="/github-metrics.svg" />
+    <img width="425" align="right" src="/github-metrics.svg" />
   </a>
 
-</div>
+  <!-- 左側 (GitHub Stats + Streak) -->
+  <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact">
+    <img width="380" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
+  </a>
+
+  <a href="https://git.io/streak-stats">
+    <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
+  </a>
+</p>
+
 
 
 ## 📊 My GitHub Stats
