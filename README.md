@@ -51,19 +51,19 @@
 
 
 ## 🧑🏼‍💻 Activities
-<div align="center">
-  <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 20px; align-items: center;">
-    <div style="display: flex; flex-direction: column; gap: 20px; align-items: center;">
-      <img alt="GitHub Stats" width="350px" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
-      <a href="https://git.io/streak-stats">
-        <img src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" width="350px" />
-      </a>
-    </div>
+<p align="center">
     <a href="https://github.com/lowlighter/metrics">
-      <img width="400px" src="/github-metrics.svg" />
+      <img width="400px" align="right" src="/github-metrics.svg" />
     </a>
-  </div>
-</div>
+    <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact">
+      <img width="350px" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
+    </a>
+    <br>
+    <a href="https://git.io/streak-stats">
+      <img width="350px" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
+    </a>
+</p>
+
 
 
 <diva align="center">
