@@ -16,7 +16,7 @@ jobs:
         with:
           token: ${{ secrets.METRICS_TOKEN }}
 
-          # 🛠 設定
+          # setup
           user: anton-fuji
           template: classic
           base: header, activity, community, repositories
