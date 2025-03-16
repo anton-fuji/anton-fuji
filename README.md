@@ -1,8 +1,9 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=1ABC9C&height=70&section=header)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=header)
 
-  <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=1ABC9C&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B" alt="Typing SVG" />
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=4B9EF9&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B" alt="Typing SVG" />
 </a>
+
   <p align="left">
 
   <a href="https://github.com/anton-fuji">
@@ -98,6 +99,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset=9" alt="Most Productive Time Card" width="390" />
 </div>
 <br> -->
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=1ABC9C&height=70&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=footer)
+
 
 
