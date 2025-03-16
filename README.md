@@ -96,6 +96,5 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset=9" alt="Most Productive Time Card" width="390" />
 </div>
 <br> -->
-
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=0A2472,3A6EA5&height=70&section=footer)
 
