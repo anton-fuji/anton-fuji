@@ -65,9 +65,9 @@
   </a>
 
   <!-- 左側 (GitHub Stats + Streak) -->
-  <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact">
-    <img width="380" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=vue-dark&layout=compact" />
-  </a>
+  <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact">
+  <img width="380" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact" />
+　</a>
 
   <a href="https://git.io/streak-stats">
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
