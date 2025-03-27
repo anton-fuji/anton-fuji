@@ -72,7 +72,6 @@
   <a href="https://git.io/streak-stats">
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
   </a>
-  
   <!-- Gopher-->
     <div align="left" style="margin-left: 40px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
@@ -81,7 +80,7 @@
         <span style="color: gray;">Gopher Dance by</span>
         <a href="https://github.com/egonelbre">Egon Elbre</a>
       </i>
-  </div>
+    </div>
   </div>
 </p>
 
