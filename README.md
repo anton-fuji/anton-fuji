@@ -75,12 +75,12 @@
   <!-- Gopher-->
   <div align="left" style="margin-left: 40px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
-    <div style="font-size: 7px; margin-top: 4px;">
+    <p style="font-size: 7px; margin-top: 4px;">
       <i>
-        <span style="color: #888; opacity: 0.8;">Gopher Dance by</span>
+        <span style="color: #888;">Gopher Dance by</span>
         <a href="https://github.com/egonelbre">Egon Elbre</a>
       </i>
-    </div>
+    </p>
   </div>
 </p>
 
