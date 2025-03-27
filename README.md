@@ -72,9 +72,16 @@
   <a href="https://git.io/streak-stats">
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
   </a>
-   <a href="#">
-    <img width="150" align="left" style="margin-left: 50px;" src="img/gopher/gopher-dance.gif" alt="Dancing Gopher"/>
-  </a>
+  <!-- Gopher-->
+    <div align="left" style="margin-left: 40px;">
+    <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
+    <div style="font-size: 10px; margin-top: 4px;">
+      <i>
+        Gopher Dance by <a href="https://github.com/egonelbre">Egon Elbre</a>, licensed under
+        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+      </i>
+    </div>
+  </div>
 </p>
 
 
