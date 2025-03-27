@@ -73,7 +73,7 @@
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
   </a>
   <!-- Gopher-->
-  <div align="left" style="margin-left: 60px; margin-top: 10px;">
+  <div align="left" style="margin-left: 80px; margin-top: 10px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
   </div>
 </p>
