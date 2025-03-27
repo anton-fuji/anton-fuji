@@ -75,10 +75,9 @@
   <!-- Gopher-->
     <div align="left" style="margin-left: 40px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
-    <div style="font-size: 10px; margin-top: 4px;">
+    <div style="font-size: 7px; margin-top: 4px;">
       <i>
-        Gopher Dance by <a href="https://github.com/egonelbre">Egon Elbre</a>, licensed under
-        <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0</a>
+        Gopher Dance by <a href="https://github.com/egonelbre">Egon Elbre</a>
       </i>
     </div>
   </div>
