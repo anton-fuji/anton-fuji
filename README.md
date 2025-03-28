@@ -75,9 +75,7 @@
   <!-- Gopher-->
   <div align="left" style="margin-left: 80px; margin-top: 10px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
-  </div>
-  <div align="left" style="margin-left: 80px; margin-top: 10px;">
-    <img src="img/gopher/ninja.gif" width="150" alt="Dancing Gopher" />
+    <img src="img/gopher/ninja.gif" width="150" alt="Ninja Gopher" />
   </div>
 </p>
 
