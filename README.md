@@ -76,6 +76,9 @@
   <div align="left" style="margin-left: 80px; margin-top: 10px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
   </div>
+  <div align="left" style="margin-left: 80px; margin-top: 10px;">
+    <img src="img/gopher/ninja.gif" width="150" alt="Dancing Gopher" />
+  </div>
 </p>
 
 
@@ -85,7 +88,10 @@
 
 
 <div align="center">
-  <h3>📌 Language Insights</h3>
+  <h3>
+    <img src="img/gopher/eyeroll.gif" width="30" style="vertical-align: middle;" />
+    　Language Insights
+   </h3>
   <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark" alt="Top Languages Used in Repository Card" width="390" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark" alt="Top Languages in Commits Card" width="390" />
