@@ -57,7 +57,7 @@
 ## 🌱Skills
 <p align="center">
   <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer" >
-    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,typescript,react,vite,docker,aws,terraform,githubactions,linux,vim,git,mysql" />
+    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,typescript,react,tailwind,vite,docker,aws,terraform,githubactions,linux,vim,git,mysql" />
   </a>
 </p>
 <br>
@@ -96,8 +96,8 @@
     　Language Insights
    </h3>
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile" alt="Top Languages Used in Repository Card" width="390" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile" alt="Top Languages in Commits Card" width="390" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile,JavaScript" alt="Top Languages Used in Repository Card" width="390" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile,JavaScript" alt="Top Languages in Commits Card" width="390" />
   </div>
 </div>
 
