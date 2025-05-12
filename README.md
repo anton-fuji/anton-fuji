@@ -57,7 +57,7 @@
 ## 🌱Skills
 <p align="center">
   <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer" >
-    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,typescript,react,tailwind,vite,docker,aws,terraform,githubactions,linux,vim,git,mysql" />
+    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,typescript,react,tailwind,vite,docker,aws,terraform,githubactions,linux,neovim,lua,git,mysql" />
   </a>
 </p>
 <br>
