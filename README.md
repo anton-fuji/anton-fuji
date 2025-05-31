@@ -82,7 +82,11 @@
   <a href="https://git.io/streak-stats">
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
   </a>
-  
+
+  <!-- Recent My Work  -->
+  <a href="https://next.ossinsight.io/widgets/official/compose-currently-working-on?activity_type=all&user_id=164746053" target="_blank">
+    <img src="https://next.ossinsight.io/widgets/official/compose-currently-working-on/thumbnail.png?activity_type=all&user_id=164746053&image_size=auto&color_scheme=dark" width="380" align="left height="auto" alt="@anton-fuji's Recent Work - Last 28 days">
+  </a>
   <!-- Gopher-->
   <div align="left" style="margin-left: 80px; margin-top: 10px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
@@ -92,7 +96,7 @@
 
 
 <div align="center">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=github_dark" alt="Profile Details Card" width="800" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=transparent" alt="Profile Details Card" width="800" />
 </div>
 
 
