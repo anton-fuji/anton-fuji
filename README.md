@@ -64,6 +64,11 @@
 
 ## 🧑🏼‍💻 Activities
 <p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
+    alt="GitHub Activity Graph"
+  />
+
   <!-- 右側 (Metrics) -->
   <a href="https://github.com/lowlighter/metrics">
     <img width="425" align="right" src="/github-metrics.svg" />
@@ -78,10 +83,6 @@
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
   </a>
   
-  <a href="https://github-readme-stats.vercel.app/api/wakatime?username=anton_fuji14&theme=github_dark">
-      <img width="380" src="https://github-readme-stats.vercel.app/api/wakatime?username=anton_fuji14&theme=github_dark" alt="WakaTime Weekly Coding Stats"/>
-  </a>
-
   <!-- Gopher-->
   <div align="left" style="margin-left: 80px; margin-top: 10px;">
     <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
