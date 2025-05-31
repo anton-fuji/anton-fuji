@@ -26,6 +26,7 @@
 [<img src="./img/social/qiita.png" width="40" height="40" />](https://qiita.com/fujifuji1414)
 [<img src="./img/social/zenn.svg" width="40" height="40" />](https://zenn.dev/fuuji)
 [<img src="./img/social/bluesky.svg" width="40" height="40" />](https://bsky.app/profile/fuji-fuji.bsky.social)
+[<img src="./img/social/note.svg" width="40" height="40" />](https://note.com/easy_dolphin1414)
 
 ## 📝 My Posts
 ****Recommend Qiita Articles****
