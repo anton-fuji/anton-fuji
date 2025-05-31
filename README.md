@@ -77,9 +77,9 @@
   <a href="https://git.io/streak-stats">
     <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
   </a>
-
-  <a href="https://github-readme-stats.vercel.app/api/top-langs/?username=anton-fuji&theme=github_dark&langs_count=6&hide=javascript,html,python,makefile">
-    <img width="380" align="left src="https://github-readme-stats.vercel.app/api/top-langs/?username=anton-fuji&theme=github_dark&langs_count=6&hide=javascript,html,python,makefile" alt="Top Languages" />
+  
+  <a href="https://github-readme-stats.vercel.app/api/wakatime?username=anton_fuji14&theme=github_dark">
+      <img width="380" src="https://github-readme-stats.vercel.app/api/wakatime?username=anton_fuji14&theme=github_dark" alt="WakaTime Weekly Coding Stats"/>
   </a>
 
   <!-- Gopher-->
