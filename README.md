@@ -12,6 +12,13 @@
 
 
 ## 🔗 My Social Streams
+[<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
+[<img src="./img/social/x.svg" width="40" height="40" />](https://x.com/sXq7XBrxuB87199)
+[<img src="./img/social/qiita.png" width="40" height="40" />](https://qiita.com/fujifuji1414)
+[<img src="./img/social/zenn.svg" width="40" height="40" />](https://zenn.dev/fuuji)
+[<img src="./img/social/bluesky.svg" width="40" height="40" />](https://bsky.app/profile/fuji-fuji.bsky.social)
+[<img src="./img/social/note.svg" width="40" height="40" />](https://note.com/easy_dolphin1414)
+
 <p align="left">
   <a href="https://github.com/anton-fuji">
     <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji" />
@@ -24,13 +31,6 @@
     <img src="https://badgen.org/img/qiita/fujifuji1414/contributions?style=plastic" alt="Contributions" />
   </a>
 </p>
-
-[<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
-[<img src="./img/social/x.svg" width="40" height="40" />](https://x.com/sXq7XBrxuB87199)
-[<img src="./img/social/qiita.png" width="40" height="40" />](https://qiita.com/fujifuji1414)
-[<img src="./img/social/zenn.svg" width="40" height="40" />](https://zenn.dev/fuuji)
-[<img src="./img/social/bluesky.svg" width="40" height="40" />](https://bsky.app/profile/fuji-fuji.bsky.social)
-[<img src="./img/social/note.svg" width="40" height="40" />](https://note.com/easy_dolphin1414)
 
 ## 📝 My Posts
 ****Recommend Qiita Articles****
