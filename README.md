@@ -1,11 +1,18 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=header)
-
 <a href="https://git.io/typing-svg">
   <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=4B9EF9&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B;Welcome+to+My+Profile+!!" alt="Typing SVG" />
 </a>
 
-  <p align="left">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
+</picture>
+<br>
 
+
+## 🔗 My Social Streams
+<p align="left">
   <a href="https://github.com/anton-fuji">
     <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji" />
   </a>
@@ -17,10 +24,7 @@
     <img src="https://badgen.org/img/qiita/fujifuji1414/contributions?style=plastic" alt="Contributions" />
   </a>
 </p>
-<br>
 
-
-## 🔗 My Social Streams
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
 [<img src="./img/social/x.svg" width="40" height="40" />](https://x.com/sXq7XBrxuB87199)
 [<img src="./img/social/qiita.png" width="40" height="40" />](https://qiita.com/fujifuji1414)
