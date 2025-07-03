@@ -42,15 +42,17 @@
 
 
 
+
 <!--[START POSTS]-->
 **Recent Articles**
+- ![](img/qiita.png) [ソケット通信を一緒に理解しよう！！](https://qiita.com/fujifuji1414/items/6daa393a86582d81f0b5)
+- ![](img/zenn.png) [TerraformでAmplifyを構築し、爆速でデプロイする](https://zenn.dev/fuuji/articles/795a7b6c9e4050)
+- ![](img/zenn.png) [Fiber + Redis で URL Shortenerを実装し、仕組みを理解する](https://zenn.dev/fuuji/articles/5e148160d40698)
+- ![](img/zenn.png) [Terraform で ECR + Lambda + API Gateway 構築し、FastAPI をサーバーレスにデプロイ](https://zenn.dev/fuuji/articles/f712b546218815)
 - ![](img/zenn.png) [Terraform で DockerイメージをLambdaへデプロイ](https://zenn.dev/fuuji/articles/547388be4ca9ce)
 - ![](img/qiita.png) [サクッとGoで AI エージェントを構築してみる](https://qiita.com/fujifuji1414/items/fc259d51de4aaf1bc75e)
 - ![](img/qiita.png) [TypeScriptのコンパイラをGoに移植｜10倍高速になった tsgo とは](https://qiita.com/fujifuji1414/items/98ddf083995f4e03ff32)
-- ![](img/zenn.png) [Dockerイメージの安全性を高める10のセキュリティハック](https://zenn.dev/fuuji/articles/3909c8d444eaa9)
-- ![](img/zenn.png) [Dockerイメージ軽量化のアーキテクチャ設計を考える](https://zenn.dev/fuuji/articles/9eb7f2aefcd6c5)
-- ![](img/qiita.png) [ブラウザでWebサイトが表示されるまでの仕組みを整理してみた](https://qiita.com/fujifuji1414/items/f9c53b451fa4890b8bfc)
-- ![](img/qiita.png) [【Go言語】Qiitaの投稿をGitHubのプロフィールに反映させてみた](https://qiita.com/fujifuji1414/items/f9606bb184951d4a3fb2)
+
 <!--[END POSTS]-->
 
 
