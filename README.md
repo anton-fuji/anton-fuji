@@ -62,11 +62,34 @@
 
 
 ## 🌱Skills
-<p align="center">
-  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer" >
-    <img alt="my skills" src="https://skillicons.dev/icons?theme=dark&perline=7&i=python,django,flask,go,typescript,react,tailwind,vite,docker,aws,terraform,githubactions,linux,neovim,lua,git,mysql" />
-  </a>
+### Frontend
+<p align="left">
+ <a href="https://skillicons.dev">
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=typescript,react,tailwind,vite" />
+ </a>
 </p>
+
+### Backend & DB
+<p align="left">
+ <a href="https://skillicons.dev">
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,python,django,flask,mysql" />
+ </a>
+</p>
+
+### Infrastructure & DevOps
+<p align="left">
+ <a href="https://skillicons.dev">
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=docker,aws,terraform,githubactions" />
+ </a>
+</p>
+
+### Tools & Environment
+<p align="left">
+ <a href="https://skillicons.dev">
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=neovim,linux,lua,git" />
+ </a>
+</p>
+
 <br>
 
 ## 🧑🏼‍💻 Activities
