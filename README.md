@@ -72,7 +72,7 @@
 ### Backend & DB
 <p align="left">
  <a href="https://skillicons.dev">
-   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,python,django,flask,mysql" />
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,rust,python,django,flask,mysql" />
  </a>
 </p>
 
