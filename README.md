@@ -1,5 +1,6 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=header)
-## 👽 About me
+
+
 ```bash
 $ whoami
 > Fuji
@@ -18,7 +19,9 @@ $ ps aux | grep skills
 > docker      MID      setting up the environment for the hackathon
 ```
 
-## 🔗 My Social Streams
+<details> 
+<summary>👽 My Social Streams </summary>
+
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
 [<img src="./img/social/x.svg" width="40" height="40" />](https://x.com/sXq7XBrxuB87199)
 [<img src="./img/social/qiita.png" width="40" height="40" />](https://qiita.com/fujifuji1414)
@@ -39,6 +42,8 @@ $ ps aux | grep skills
   </a>
 </p>
 
+</details>
+
 <details>
 <summary>👽 Recent Articles</summary>
 
@@ -56,6 +61,7 @@ $ ps aux | grep skills
 
 <details>
 <summary>👽 My Tech Stack</summary> 
+
 ### Frontend
 <p align="left">
  <a href="https://skillicons.dev">
@@ -89,7 +95,7 @@ $ ps aux | grep skills
 ## 🧑🏼‍💻 Activities
 <p align="center">
   <img 
-    src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&area=true&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
     alt="GitHub Activity Graph"
   />
 
