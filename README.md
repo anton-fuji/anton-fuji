@@ -1,12 +1,14 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=header)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=4B9EF9&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B;Welcome+to+My+Profile+!!" alt="Typing SVG" />
+</a>
 
-
-```bash
+```sh
 $ whoami
-> Fuji
+︎▶︎ Fuji
 
 $ which editor
-> /usr/bin/nvim
+▶︎ /usr/bin/nvim
 
 $ ps aux | grep skills
 PID    FREQ  LANG / DESCRIPTION
@@ -94,26 +96,32 @@ PID    FREQ  LANG / DESCRIPTION
 
 <details>
 <summary>👽 Activities</summary>
+
 <p align="center">
   <img 
     src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&area=true&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
     alt="GitHub Activity Graph"
   />
-
-  <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact">
-  <img width="380" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact" />
-　</a>
-
-  <a href="https://git.io/streak-stats">
-  <img width="380" src="https://streak-stats.demolab.com?user=anton-fuji&theme=blue-navy&hide_border=true" alt="GitHub Streak" />
-  </a>
 </p>
 
-
 <div align="center">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=transparent" alt="Profile Details Card" width="800" />
+    <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact">
+      <img width="48%" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact" alt="GitHub Stats" />
+    </a>
+    <a href="https://git.io/streak-stats">
+      <img width="48%" src="https://streak-stats.demolab.com?user=anton-fuji&theme=blue-navy&hide_border=true" alt="GitHub Streak" />
+    </a>
 </div>
 
+<br>
+
+<div align="center">
+    <img 
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=transparent" 
+      alt="Profile Details Card" 
+      width="90%" 
+    />
+</div>
 
 <div align="center">
   <h3>
