@@ -1,15 +1,22 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=header)
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=4B9EF9&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B;Welcome+to+My+Profile+!!" alt="Typing SVG" />
-</a>
+## 👽 About me
+```bash
+$ whoami
+> Fuji
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
-</picture>
-<br>
+$ which editor
+> /usr/bin/nvim
 
+$ ps aux | grep skills
+#----------------------------------------------------------------------
+# PROGRAM    | FREQ  | DESCRIPTION
+#----------------------------------------------------------------------
+> go          HIGH     I often use to create CLI tools and backend services
+> rust        HIGH     mainly used for work
+> lua         HIGH     writing in neovim settings
+> aws         HIGH     frequently used cloud service
+> docker      MID      setting up the environment for the hackathon
+```
 
 ## 🔗 My Social Streams
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
@@ -32,19 +39,9 @@
   </a>
 </p>
 
-## 📝 My Posts
-****Recommend Qiita Articles****
-- ![](img/qiita.png) [【Go言語】Goの概要・基本構文を押さえる](https://qiita.com/fujifuji1414/items/1d37ee8d8626e1d2fa35)
-- ![](img/qiita.png) [【Go言語】Goのメモリ管理の全貌を徹底解剖](https://qiita.com/fujifuji1414/items/359d754f9ab0ad2ccbb7)
-- ![](img/qiita.png) [【Go言語】Goの並行処理を理解する](https://qiita.com/fujifuji1414/items/4b443f0666e7d558e0a9)
-<br>
-
-
-
-
-
+<details>
+<summery>👽 Recent Articles</summery>
 <!--[START POSTS]-->
-**Recent Articles**
 - ![](img/qiita.png) [ソケット通信を一緒に理解しよう！！](https://qiita.com/fujifuji1414/items/6daa393a86582d81f0b5)
 - ![](img/zenn.png) [TerraformでAmplifyを構築し、爆速でデプロイする](https://zenn.dev/fuuji/articles/795a7b6c9e4050)
 - ![](img/zenn.png) [Fiber + Redis で URL Shortenerを実装し、仕組みを理解する](https://zenn.dev/fuuji/articles/5e148160d40698)
@@ -54,25 +51,21 @@
 - ![](img/qiita.png) [TypeScriptのコンパイラをGoに移植｜10倍高速になった tsgo とは](https://qiita.com/fujifuji1414/items/98ddf083995f4e03ff32)
 
 <!--[END POSTS]-->
+</details>
 
-
-
-
-
-
-
-## 🌱Skills
+<details>
+<summery>👽 My Tech Stack</summery> 
 ### Frontend
 <p align="left">
  <a href="https://skillicons.dev">
-   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=typescript,react,tailwind,vite" />
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=typescript,tailwind,vite" />
  </a>
 </p>
 
 ### Backend & DB
 <p align="left">
  <a href="https://skillicons.dev">
-   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,rust,python,django,flask,mysql" />
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,rust,python,redis,mysql" />
  </a>
 </p>
 
@@ -89,39 +82,23 @@
    <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=neovim,linux,lua,git" />
  </a>
 </p>
-
+</details>
 <br>
 
 ## 🧑🏼‍💻 Activities
 <p align="center">
-  <img
+  <img 
     src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
     alt="GitHub Activity Graph"
   />
 
-  <!-- 右側 (Metrics) -->
-  <a href="https://github.com/lowlighter/metrics">
-    <img width="425" align="right" src="/github-metrics.svg" />
-  </a>
-
-  <!-- 左側 (GitHub Stats + Streak) -->
   <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact">
   <img width="380" align="left" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact" />
 　</a>
 
   <a href="https://git.io/streak-stats">
-    <img width="380" align="left" src="https://streak-stats.demolab.com?user=anton-fuji&theme=taiga&border_radius=4.3" />
+  <img width="380" src="https://streak-stats.demolab.com?user=anton-fuji&theme=blue-navy&hide_border=true" alt="GitHub Streak" />
   </a>
-
-  <!-- Recent My Work  -->
-  <a href="https://next.ossinsight.io/widgets/official/compose-currently-working-on?activity_type=all&user_id=164746053" target="_blank">
-    <img src="https://next.ossinsight.io/widgets/official/compose-currently-working-on/thumbnail.png?activity_type=all&user_id=164746053&image_size=auto&color_scheme=dark" width="380" align="left height="auto" alt="@anton-fuji's Recent Work - Last 28 days">
-  </a>
-  <!-- Gopher-->
-  <div align="left" style="margin-left: 80px; margin-top: 10px;">
-    <img src="img/gopher/gopher-dance.gif" width="150" alt="Dancing Gopher" />
-    <img src="img/gopher/ninja.gif" width="150" alt="Ninja Gopher" />
-  </div>
 </p>
 
 
@@ -141,17 +118,16 @@
   </div>
 </div>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
+</picture>
+
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
 </div>
 
-
-<!-- <div align="center">
-  <h3>📈 Contribution Activity</h3>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=anton-fuji&theme=github_dark" alt="Contribution Stats Card" width="390" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=anton-fuji&theme=github_dark&utcOffset=9" alt="Most Productive Time Card" width="390" />
-</div>
-<br> -->
 ![Footer](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=footer)
 
 
