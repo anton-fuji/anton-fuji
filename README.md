@@ -21,6 +21,7 @@ Docker  MID    Environment setup, especially for hackathons
 
 <details> 
 <summary>👽 My Social Streams </summary>
+<br>
 
 [<img src="./img/social/github.svg" width="40" height="40" />](https://github.com/anton-fuji)
 [<img src="./img/social/x.svg" width="40" height="40" />](https://x.com/sXq7XBrxuB87199)
@@ -47,6 +48,7 @@ Docker  MID    Environment setup, especially for hackathons
 
 <details>
 <summary>👽 Recent Articles</summary>
+<br>
 
 <!--[START POSTS]-->
 - ![](img/qiita.png) [ソケット通信を一緒に理解しよう！！](https://qiita.com/fujifuji1414/items/6daa393a86582d81f0b5)
@@ -96,6 +98,7 @@ Docker  MID    Environment setup, especially for hackathons
 
 <details>
 <summary>👽 Activities</summary>
+<br>
 
 <p align="center">
   <img 
