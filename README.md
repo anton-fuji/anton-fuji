@@ -40,7 +40,8 @@ $ ps aux | grep skills
 </p>
 
 <details>
-<summery>👽 Recent Articles</summery>
+<summary>👽 Recent Articles</summary>
+
 <!--[START POSTS]-->
 - ![](img/qiita.png) [ソケット通信を一緒に理解しよう！！](https://qiita.com/fujifuji1414/items/6daa393a86582d81f0b5)
 - ![](img/zenn.png) [TerraformでAmplifyを構築し、爆速でデプロイする](https://zenn.dev/fuuji/articles/795a7b6c9e4050)
@@ -54,7 +55,7 @@ $ ps aux | grep skills
 </details>
 
 <details>
-<summery>👽 My Tech Stack</summery> 
+<summary>👽 My Tech Stack</summary> 
 ### Frontend
 <p align="left">
  <a href="https://skillicons.dev">
