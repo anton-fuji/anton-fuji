@@ -11,12 +11,12 @@ $ which editor
 ▶︎ /usr/bin/nvim
 
 $ ps aux | grep skills
-PID    FREQ  LANG / DESCRIPTION
-10001  HIGH  go: CLI tools and backend services
-10002  HIGH  rust: Mainly used for work
-10003  HIGH  lua: Writing configuration for Neovim 
-10004  HIGH  aws: IaC and cloud architecture
-10005  MID   docker: Environment setup, especially for hackathons
+LANG    FREQ   DESCRIPTION
+Go      HIGH   CLI tools and backend services
+Rust    HIGH   Mainly used for work
+Lua     HIGH   Writing configuration for Neovim 
+AWS     HIGH   IaC and cloud architecture
+Docker  MID    Environment setup, especially for hackathons
 ```
 
 <details> 
