@@ -9,14 +9,12 @@ $ which editor
 > /usr/bin/nvim
 
 $ ps aux | grep skills
-#----------------------------------------------------------------------
-# PROGRAM    | FREQ  | DESCRIPTION
-#----------------------------------------------------------------------
-> go          HIGH     I often use to create CLI tools and backend services
-> rust        HIGH     mainly used for work
-> lua         HIGH     writing in neovim settings
-> aws         HIGH     frequently used cloud service
-> docker      MID      setting up the environment for the hackathon
+PID    FREQ  LANG / DESCRIPTION
+10001  HIGH  go: CLI tools and backend services
+10002  HIGH  rust: Mainly used for work
+10003  HIGH  lua: Writing configuration for Neovim 
+10004  HIGH  aws: IaC and cloud architecture
+10005  MID   docker: Environment setup, especially for hackathons
 ```
 
 <details> 
@@ -43,6 +41,7 @@ $ ps aux | grep skills
 </p>
 
 </details>
+<br>
 
 <details>
 <summary>👽 Recent Articles</summary>
@@ -58,6 +57,7 @@ $ ps aux | grep skills
 
 <!--[END POSTS]-->
 </details>
+<br>
 
 <details>
 <summary>👽 My Tech Stack</summary> 
@@ -92,7 +92,8 @@ $ ps aux | grep skills
 </details>
 <br>
 
-## 🧑🏼‍💻 Activities
+<details>
+<summary>👽 Activities</summary>
 <p align="center">
   <img 
     src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&area=true&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
@@ -124,6 +125,8 @@ $ ps aux | grep skills
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile,JavaScript" alt="Top Languages in Commits Card" width="390" />
   </div>
 </div>
+
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake-dark.svg">
