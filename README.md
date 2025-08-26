@@ -19,6 +19,11 @@ AWS     HIGH   IaC and cloud architecture
 Docker  MID    Environment setup, especially for hackathons
 ```
 
+```yaml
+            : !ruby/class "                   Here is  my info.  "
+```
+
+
 <details> 
 <summary>👽 My Social Streams </summary>
 <br>
