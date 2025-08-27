@@ -4,16 +4,10 @@
 </a>
 
 ---
-Welcome to my profile! : !ruby/class "Hi👋 I'm Fuji 🐈‍⬛!"
+Welcome to my profile!　                                                                                                     : !ruby/class "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　Hi👋 I'm Fuji 🐈‍⬛"
 ---
 
-```json
-{
-  "developer": "Fuji",
-  "skills": ["Go", "Rust", "AWS"],
-  // Hi there! I'm Fuji from Japan! 🚀
-}
-```
+
 
 ```bash
 $ whoami
