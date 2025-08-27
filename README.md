@@ -138,8 +138,6 @@ Docker  MID    Environment setup, especially for hackathons
   </div>
 </div>
 
-</details>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
@@ -147,10 +145,12 @@ Docker  MID    Environment setup, especially for hackathons
 </picture>
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark&rank=-C,-B" alt="Trophies" />
 </div>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=footer)
+</details>
 
+
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=footer)
 
 
