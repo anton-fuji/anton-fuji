@@ -1,7 +1,10 @@
 ![Header](https://capsule-render.vercel.app/api?type=waving&color=142F46&height=70&section=header)
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=4B9EF9&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B;Welcome+to+My+Profile+!!" alt="Typing SVG" />
-</a>
+<div>
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.demolab.com?font=Ubuntu&weight=600&size=30&pause=1000&color=4B9EF9&center=true&vCenter=true&width=500&lines=Hi%F0%9F%91%8B+I'm+Fuji+%F0%9F%90%88%E2%80%8D%E2%AC%9B;Welcome+to+My+Profile+!!" alt="Typing SVG" />
+  </a>
+  <img align="right" src="./img/gopher/gopher-dance.gif" alt="" width="100" />
+</div>
 
 ```bash
 $ whoami
