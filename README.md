@@ -12,7 +12,7 @@
 </tr>
 </table>
 
-```bash
+```console
 $ whoami
 ︎▶︎ Fuji
 
