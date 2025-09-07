@@ -142,8 +142,8 @@ Docker  MID    Environment setup, especially for hackathons
     　Language Insights
    </h3>
   <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile,JavaScript" alt="Top Languages Used in Repository Card" width="390" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=HTML,Makefile,JavaScript" alt="Top Languages in Commits Card" width="390" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark&exclude=python,HTML,Makefile,JavaScript" alt="Top Languages Used in Repository Card" width="390" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=python,HTML,Makefile,JavaScript" alt="Top Languages in Commits Card" width="390" />
   </div>
 </div>
 
