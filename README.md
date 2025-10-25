@@ -23,13 +23,13 @@ $ ps aux | grep skills
 LANG    FREQ   DESCRIPTION
 Go      HIGH   CLI tools and backend services
 Rust    HIGH   Mainly used for Coding Contest
-Lua     HIGH   Writing configuration for Neovim 
+Lua     HIGH   Writing configuration for Neovim
 AWS     HIGH   IaC and cloud architecture
 Docker  MID    Environment setup, especially for hackathons
 ```
 
 
-<details> 
+<details>
 <summary>👽 My Social Streams </summary>
 <br>
 
@@ -74,7 +74,7 @@ Docker  MID    Environment setup, especially for hackathons
 <br>
 
 <details>
-<summary>👽 My Tech Stack</summary> 
+<summary>👽 My Tech Stack</summary>
 
 ### Frontend
 <p align="left">
@@ -107,11 +107,18 @@ Docker  MID    Environment setup, especially for hackathons
 <br>
 
 <details>
+<summary>👽 Certifications</summary>
+<br>
+<img src="./img/cert/googlecloud-ace.png" alt="Google Cloud Sertificated ACE" width=80 height=80 />
+</details>
+<br>
+
+<details>
 <summary>👽 Activities</summary>
 <br>
 
 <p align="center">
-  <img 
+  <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&theme=tokyo-night&area=true&custom_title=Contribution%20Graph%20in%20the%20last%2031%20days"
     alt="GitHub Activity Graph"
   />
@@ -129,10 +136,10 @@ Docker  MID    Environment setup, especially for hackathons
 <br>
 
 <div align="center">
-    <img 
-      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=transparent" 
-      alt="Profile Details Card" 
-      width="90%" 
+    <img
+      src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=transparent"
+      alt="Profile Details Card"
+      width="90%"
     />
 </div>
 
