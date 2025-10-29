@@ -93,7 +93,7 @@ Docker  MID    Environment setup, especially for hackathons
 ### Infrastructure & DevOps
 <p align="left">
  <a href="https://skillicons.dev">
-   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=docker,aws,terraform,githubactions" />
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=docker,aws,gcp,terraform,githubactions" />
  </a>
 </p>
 
