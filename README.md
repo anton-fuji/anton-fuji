@@ -136,6 +136,8 @@ Docker  MID    Environment setup, especially for hackathons
 
 <br>
 <!--START_SECTION:lapras-card-->
+<p ><a href="https://lapras.com/public/AFWLVCK" target="_blank" rel="noopener noreferrer"><img alt="AFWLVCK's scores on LAPRAS are as follows: Engineering: 3.5 out of 5.0, Business: 3.36 out of 5.0, Influence: 3.25 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.5&b=3.36&i=3.25&b1=%230c132c&b2=%232e6799&i1=%23203874&i2=%2328209d&l=en" width="400" ></a>  
+Last Updated on 11/24/2025, 8:59:54 AM</p>
 <!--END_SECTION:lapras-card-->
 <br>
 
