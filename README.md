@@ -135,6 +135,9 @@ Docker  MID    Environment setup, especially for hackathons
 </div>
 
 <br>
+<!--START_SECTION:lapras-card-->
+<!--END_SECTION:lapras-card-->
+<br>
 
 <div align="center">
     <img
