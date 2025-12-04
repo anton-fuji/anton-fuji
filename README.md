@@ -126,18 +126,17 @@ Docker  MID    Environment setup, especially for hackathons
 </p>
 
 <div align="center">
-    <a href="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact">
-      <img width="48%" src="https://github-readme-stats.vercel.app/api?username=anton-fuji&theme=tokyonight&layout=compact" alt="GitHub Stats" />
-    </a>
     <a href="https://git.io/streak-stats">
       <img width="48%" src="https://streak-stats.demolab.com?user=anton-fuji&theme=blue-navy&hide_border=true" alt="GitHub Streak" />
     </a>
-</div>
 
 <br>
 <!--START_SECTION:lapras-card-->
-<a href="https://lapras.com/public/AFWLVCK" target="_blank" rel="noopener noreferrer"><img alt="AFWLVCK's scores on LAPRAS are as follows: Engineering: 3.5 out of 5.0, Business: 3.36 out of 5.0, Influence: 3.25 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.5&b=3.36&i=3.25&b1=%230c132c&b2=%232e6799&i1=%23203874&i2=%2328209d&l=en" width="400" ></a>
+<a href="https://lapras.com/public/AFWLVCK" target="_blank" rel="noopener noreferrer">
+  <img alt="AFWLVCK's scores on LAPRAS are as follows: Engineering: 3.5 out of 5.0, Business: 3.36 out of 5.0, Influence: 3.25 out of 5.0." src="https://lapras-card-generator.vercel.app/api/svg?e=3.5&b=3.36&i=3.25&b1=%230c132c&b2=%232e6799&i1=%23203874&i2=%2328209d&l=en" width="400" >
+</a>
 <!--END_SECTION:lapras-card-->
+</div>
 <br>
 
 <div align="center">
