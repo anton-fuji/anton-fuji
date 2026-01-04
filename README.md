@@ -61,14 +61,14 @@ Docker  MID    Environment setup, especially for hackathons
 <br>
 
 <!--[START POSTS]-->
+**Recent Articles**
+- ![](img/zenn.png) [GoでUNIXコマンドを作りながら、I/O処理を理解する](https://zenn.dev/fuuji/articles/6b2afad9252676)
 - ![](img/qiita.png) [ソケット通信を一緒に理解しよう！！](https://qiita.com/fujifuji1414/items/6daa393a86582d81f0b5)
 - ![](img/zenn.png) [TerraformでAmplifyを構築し、爆速でデプロイする](https://zenn.dev/fuuji/articles/795a7b6c9e4050)
 - ![](img/zenn.png) [Fiber + Redis で URL Shortenerを実装し、仕組みを理解する](https://zenn.dev/fuuji/articles/5e148160d40698)
 - ![](img/zenn.png) [Terraform で ECR + Lambda + API Gateway 構築し、FastAPI をサーバーレスにデプロイ](https://zenn.dev/fuuji/articles/f712b546218815)
 - ![](img/zenn.png) [Terraform で DockerイメージをLambdaへデプロイ](https://zenn.dev/fuuji/articles/547388be4ca9ce)
 - ![](img/qiita.png) [サクッとGoで AI エージェントを構築してみる](https://qiita.com/fujifuji1414/items/fc259d51de4aaf1bc75e)
-- ![](img/qiita.png) [TypeScriptのコンパイラをGoに移植｜10倍高速になった tsgo とは](https://qiita.com/fujifuji1414/items/98ddf083995f4e03ff32)
-
 <!--[END POSTS]-->
 </details>
 <br>
@@ -86,7 +86,7 @@ Docker  MID    Environment setup, especially for hackathons
 ### Backend & DB
 <p align="left">
  <a href="https://skillicons.dev">
-   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,rust,python,redis,mysql" />
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,rust,redis,mysql" />
  </a>
 </p>
 
