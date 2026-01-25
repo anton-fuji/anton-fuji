@@ -112,6 +112,7 @@ Docker  MID    Environment setup, especially for hackathons
 <img src="./img/cert/googlecloud-cdl.png" alt="Google Cloud Sertificated CDL" width=80 height=80 />
 <img src="./img/cert/googlecloud-ace.png" alt="Google Cloud Sertificated ACE" width=80 height=80 />
 <img src="./img/cert/googlecloud-pcd.png" alt="Google Cloud Sertificated PCD" width=80 height=80 />
+<img src="./img/cert/googlecloud-pca.png" alt="Google Cloud Sertificated PCA" width=80 height=80 />
 </details>
 <br>
 
