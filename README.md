@@ -100,7 +100,7 @@ Docker  MID    Environment setup, especially for hackathons
 ### Tools & Environment
 <p align="left">
  <a href="https://skillicons.dev">
-   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=neovim,linux,lua,git" />
+   <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=vim,neovim,nix,linux,lua,git" />
  </a>
 </p>
 </details>
