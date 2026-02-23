@@ -166,10 +166,6 @@ Docker  MID    Environment setup, especially for hackathons
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
 </picture>
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=anton-fuji&theme=onedark&rank=-C,-B" alt="Trophies" />
-</div>
-
 </details>
 
 
