@@ -23,9 +23,8 @@ $ ps aux | grep skills
 LANG    FREQ   DESCRIPTION
 Go      HIGH   CLI tools and backend services
 Rust    HIGH   Mainly used for Coding Contest
-Lua     HIGH   Writing configuration for Neovim
+Lua     MID   Writing configuration for Neovim
 AWS     HIGH   IaC and cloud architecture
-Docker  MID    Environment setup, especially for hackathons
 ```
 
 
