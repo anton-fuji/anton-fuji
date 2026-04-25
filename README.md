@@ -14,13 +14,13 @@
 </table>
 
 ```console
-$ whoami
+(*'-') > whoami
   Fuji
 
-$ which editor
+(*'-') > which editor
   /usr/bin/nvim
 
-$ ps aux | grep skills
+(*;-;) > ps aux | grep skills
   USER   PID    %CPU  %MEM  COMMAND
   fuji   1001   12.4   0.3  go — CLI tools and backend services
   fuji   1002    9.1   0.2  rust — Coding contests, systems programming
@@ -30,10 +30,10 @@ $ ps aux | grep skills
 
 [1]  Segmentation fault (core dumped)  ps aux | grep skills
 
-$ echo $?
+(*;-;) > echo $?
 139
 
-$ cat /var/log/fuji.log | tail -n 3
+(*'-') > cat /var/log/fuji.log | tail -n 3
   [WARN]  too many interests loaded into memory
   [ERROR] stack overflow: side_projects exceeded ulimit
   [INFO]  core dumped to: github.com/anton-fuji
