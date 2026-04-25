@@ -13,7 +13,7 @@
 </tr>
 </table>
 
-```console
+```markdown
 (*'-') > whoami
   Fuji
 
