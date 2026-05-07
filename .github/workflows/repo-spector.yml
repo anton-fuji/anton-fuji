@@ -1,0 +1,39 @@
+name: repo-spector
+on:
+  schedule:
+    - cron: "0 0 * * 5"
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+      - name: Download repo-spector binary from GitHub Release
+        shell: bash
+        run: |
+          curl -L https://github.com/4okimi7uki/repo-spector/releases/latest/download/repo-spector -o repo-spector
+          chmod +x ./repo-spector
+      - name: Run repo-spector CLI
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          mkdir -p output
+          ./repo-spector -x "python,HTML,CSS,Makefile,JavaScript"
+      - name: Commit and Push updated SVGs
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add output/*.svg
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "update: language stats svg"
+            git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }} HEAD:main
+          fi

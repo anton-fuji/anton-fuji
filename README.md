@@ -156,7 +156,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=anton-fuji&theme=github_dark&exclude=python,HTML,Makefile,JavaScript" width="390" />
+  <img src="./output/top6_lang.svg" width="390" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=python,HTML,Makefile,JavaScript" width="390" />
 </div>
 
