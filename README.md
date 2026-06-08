@@ -15,7 +15,7 @@
 
 ```markdown
 (*'-') > whoami
-  Fuji
+  fuji
 
 (*'-') > which editor
   /usr/bin/nvim
