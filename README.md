@@ -53,10 +53,9 @@
 [<img src="./img/social/note.svg" width="36" height="36" />](https://note.com/easy_dolphin1414)
 
 <p align="left">
-  <img height="20" src="https://komarev.com/ghpvc/?username=anton-fuji&color=3b82f6&style=flat-square&label=profile+views" />
-  <img src="https://badgen.org/img/zenn/fuuji/likes?style=flat-square" alt="Zenn Likes" />
-  <img src="https://badgen.org/img/qiita/fujifuji1414/articles?style=flat-square" alt="Articles" />
-  <img src="https://badgen.org/img/qiita/fujifuji1414/contributions?style=flat-square" alt="Contributions" />
+    <img src="https://img.shields.io/github/stars/anton-fuji/REPO_NAME?style=flat-square&color=3b82f6&label=stars" />
+    <img src="https://badgen.org/img/zenn/fuuji/likes?style=flat-square" alt="Zenn Likes" />
+    <img src="https://badgen.org/img/qiita/fujifuji1414/articles?style=flat-square" alt="Articles" />
 </p>
 
 </details>
