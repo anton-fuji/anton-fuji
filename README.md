@@ -49,7 +49,6 @@
 [<img src="./img/social/x.svg" width="36" height="36" />](https://x.com/sXq7XBrxuB87199)
 [<img src="./img/social/qiita.png" width="36" height="36" />](https://qiita.com/fujifuji1414)
 [<img src="./img/social/zenn.svg" width="36" height="36" />](https://zenn.dev/fuuji)
-[<img src="./img/social/bluesky.svg" width="36" height="36" />](https://bsky.app/profile/fuji-fuji.bsky.social)
 [<img src="./img/social/note.svg" width="36" height="36" />](https://note.com/mochi_mochi777)
 
 <p align="left">
