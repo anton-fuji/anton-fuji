@@ -115,6 +115,7 @@
 <img src="./img/cert/googlecloud-pcd.png" width="80" height="80" />
 <img src="./img/cert/googlecloud-pca.png" width="80" height="80" />
 <img src="./img/cert/googlecloud-devops.png" width="80" height="80" />
+<img src="./img/cert/googlecloud-data.png" width="80" height="80" />
 
 </details>
 
