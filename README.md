@@ -2,11 +2,9 @@
 /home/fuji/profile:
   boot: README.md
   status: corrupted
-  reason: too_many_side_projects
   editor: /usr/bin/nvim
   stack: [go, rust, nix, cloud]
   recover: github.com/anton-fuji
-  loader: !ruby/class "Fuji::ProfileLoader"
 ---
 
 ![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
