@@ -1,4 +1,8 @@
-![Header](https://capsule-render.vercel.app/api?type=waving&color=060d1f&height=120&section=header&text=Fuji&fontSize=36&fontColor=60a5fa&fontAlignY=65&desc=Software%20Engineer%20%7C%20Go%20%2F%20Rust%20%2F%20Nvim&descAlignY=85&descSize=14&descColor=334155)
+---
+Here is my little profile page...                                                                                                     : !ruby/class "fuji / software engineer / go / rust / nvim"
+---
+
+![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
 
 <table>
 <tr>
@@ -13,36 +17,35 @@
 </tr>
 </table>
 
-```markdown
-(*'-') > whoami
-  fuji
+```console
+$ whoami
+fuji
 
-(*'-') > which editor
-  /usr/bin/nvim
+$ which editor
+/usr/bin/nvim
 
-(*;-;) > ps aux | grep skills
-  USER   PID    %CPU  %MEM  COMMAND
-  fuji   1001   12.4   0.3  go — CLI tools and backend services
-  fuji   1002    9.1   0.2  rust — Coding contests, systems programming
-  fuji   1003    7.7   0.1  lua — Neovim configuration
-  fuji   1004   18.3   0.4  aws — IaC, cloud architecture
-  fuji   1005    4.
+$ ps -eo pid,comm,args --sort=-interest | head
+PID    COMM       ARGS
+1001   go         cli tools / backend services
+1002   rust       systems / contests
+1003   nvim       lua / plugins / daily driver
+1004   cloud      aws / gcp / terraform
+1005   nix        reproducible dev envs
 
-[1]  Segmentation fault (core dumped)  ps aux | grep skills
+$ ./side-projects --all
+panic: too many ideas loaded
 
-(*;-;) > echo $?
-139
-
-(*'-') > cat /var/log/fuji.log | tail -n 3
-  [WARN]  too many interests loaded into memory
-  [ERROR] stack overflow: side_projects exceeded ulimit
-  [INFO]  core dumped to: github.com/anton-fuji
+$ tail -n 4 /var/log/fuji.log
+[warn] stack overflow: side_projects exceeded ulimit
+[info] building small useful tools
+[info] writing about what I learn
+[ok]   core dumped to github.com/anton-fuji
 ```
 
 <br>
 
 <details>
-<summary>　👽 Social</summary>
+<summary>cat ~/links.txt</summary>
 <br>
 
 [<img src="./img/social/github.svg" width="36" height="36" />](https://github.com/anton-fuji)
@@ -60,7 +63,7 @@
 <br>
 
 <details>
-<summary>　👽 Recent Articles</summary>
+<summary>ls ~/articles</summary>
 <br>
 
 <!--[START POSTS]-->
@@ -78,35 +81,57 @@
 <br>
 
 <details>
-<summary>　👽 Tech Stack</summary>
+<summary>ls ~/stack</summary>
 <br>
 
-**Frontend**
-<p>
-  <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=typescript,tailwind,vite" />
-</p>
+```console
+$ mount | grep fuji
+/dev/go      on /backend   type service
+/dev/rust    on /systems   type low-level
+/dev/cloud   on /infra     type provisioner
+/dev/nvim    on /editor    type resident
+/dev/nix     on /env       type reproducible
+```
 
-**Backend & DB**
-<p>
-  <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=go,rust,redis,mysql" />
-</p>
-
-**Infrastructure & DevOps**
-<p>
-  <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=docker,aws,gcp,terraform,githubactions" />
-</p>
-
-**Tools & Environment**
-<p>
-  <img src="https://skillicons.dev/icons?theme=dark&perline=8&i=vim,neovim,nix,linux,lua,git" />
-</p>
+<table>
+<tr>
+<td><code>/backend</code></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=go,redis,mysql,postgresql" /></td>
+<td>CLI tools, APIs, and small useful services</td>
+</tr>
+<tr>
+<td><code>/systems</code></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=rust" /></td>
+<td>Systems programming and contest code</td>
+</tr>
+<tr>
+<td><code>/infra</code></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=aws,gcp,terraform,docker,githubactions" /></td>
+<td>Cloud architecture, IaC, and delivery pipelines</td>
+</tr>
+<tr>
+<td><code>/editor</code></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=neovim,lua,git" /></td>
+<td>Daily driver, plugins, and development workflow</td>
+</tr>
+<tr>
+<td><code>/env</code></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=nix,linux" /></td>
+<td>Reproducible environments and Linux tooling</td>
+</tr>
+<tr>
+<td><code>/ui</code></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=typescript" /></td>
+<td>Useful interfaces when the tool needs a surface</td>
+</tr>
+</table>
 
 </details>
 
 <br>
 
 <details>
-<summary>　👽 Certifications</summary>
+<summary>ls ~/certs</summary>
 <br>
 
 <img src="./img/cert/googlecloud-cdl.png" width="80" height="80" />
@@ -121,50 +146,22 @@
 <br>
 
 <details>
-<summary>　👽 Activities</summary>
+<summary>cat ~/activity</summary>
 <br>
 
-<p align="center">
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=anton-fuji&bg_color=060d1f&color=60a5fa&line=3b82f6&point=93c5fd&area=true&hide_border=true&custom_title=Contribution%20Graph%20%E2%80%94%20last%2031%20days"
-    alt="GitHub Activity Graph"
-  />
-</p>
-
-<div align="center">
-  <img width="49%" src="https://streak-stats.demolab.com?user=anton-fuji&theme=dark&hide_border=true&background=060d1f&ring=3b82f6&fire=60a5fa&currStreakLabel=60a5fa&sideLabels=475569&dates=475569&currStreakNum=93c5fd&sideNums=93c5fd" alt="GitHub Streak" />
-</div>
-
-<br>
-
-<div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
+  <img src="./output/top6_lang.svg" alt="Most Used Languages" width="380" />
+</td>
+<td align="center" width="50%">
   <a href="https://lapras.com/public/AFWLVCK" target="_blank">
     <img alt="LAPRAS score" src="https://lapras-card-generator.vercel.app/api/svg?e=3.5&b=3.36&i=3.25&b1=%23060d1f&b2=%230f1d3a&i1=%231e3a5f&i2=%231d4ed8&l=en" width="380" />
   </a>
-</div>
-
-<br>
-
-<div align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=anton-fuji&theme=transparent"
-    width="90%"
-  />
-</div>
-
-<div align="center">
-  <img src="./output/top6_lang.svg" width="390" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=anton-fuji&theme=github_dark&exclude=python,HTML,Makefile,JavaScript" width="390" />
-</div>
-
-<br>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/obregonia1/obregonia1/master/img/snake.svg">
-</picture>
+</td>
+</tr>
+</table>
 
 </details>
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=060d1f&height=80&section=footer)
+![Footer](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=32&section=footer)
