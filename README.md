@@ -11,15 +11,15 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
 
-<table>
+<table align="center">
 <tr>
 <td valign="middle">
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&width=480&lines=20+y%2Fo+%7C+Software+Engineer+%F0%9F%91%BD;Building+small+tools+%26+cloud+infra;README+recovered+from+core+dump" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&width=420&lines=20+y%2Fo+%7C+Software+Engineer+%F0%9F%91%BD;Building+small+tools+%26+cloud+infra;README+recovered+from+core+dump" alt="Typing SVG" />
 </a>
 </td>
 <td>
-<img src="./img/gopher/gopher-dance.gif" alt="" width="100" />
+<img src="./img/gopher/gopher-dance.gif" alt="" width="92" />
 </td>
 </tr>
 </table>
