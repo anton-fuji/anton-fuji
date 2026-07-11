@@ -1,5 +1,12 @@
 ---
-/home/fuji/.profile.yml　                                                                                                     : !ruby/class "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　fuji@github: go / rust / nvim / nix "
+/home/fuji/profile:
+  boot: README.md
+  status: corrupted
+  reason: too_many_side_projects
+  editor: /usr/bin/nvim
+  stack: [go, rust, nix, cloud]
+  recover: github.com/anton-fuji
+  loader: !ruby/class "Fuji::ProfileLoader"
 ---
 
 ![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
@@ -8,7 +15,7 @@
 <tr>
 <td valign="middle">
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&width=480&lines=20+y%2Fo+%7C+Software+Engineer+%F0%9F%91%BD;Go+%2F+Rust+%2F+Nvim+%2F+Nix;Building+CLI+tools+%26+cloud+infra" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&width=480&lines=20+y%2Fo+%7C+Software+Engineer+%F0%9F%91%BD;Building+small+tools+%26+cloud+infra;README+recovered+from+core+dump" alt="Typing SVG" />
 </a>
 </td>
 <td>
@@ -18,24 +25,12 @@
 </table>
 
 ```console
-$ whoami
-fuji
-
-$ which editor
-/usr/bin/nvim
-
-$ ps -eo pid,comm,args --sort=-interest | head
-PID    COMM       ARGS
-1001   go         cli tools / backend services
-1002   rust       systems / contests
-1003   nvim       lua / plugins / daily driver
-1004   cloud      aws / gcp / terraform
-1005   nix        reproducible dev envs
-
 $ ./side-projects --all
 panic: too many ideas loaded
 
-$ tail -n 4 /var/log/fuji.log
+$ tail -n 6 /var/log/fuji.log
+[boot] profile loader failed with YAML::DisallowedClass
+[fix]  falling back to markdown renderer
 [warn] stack overflow: side_projects exceeded ulimit
 [info] building small useful tools
 [info] writing about what I learn
