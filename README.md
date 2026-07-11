@@ -1,3 +1,5 @@
+![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
+
 <table>
 <tr>
 <td valign="middle">
@@ -143,10 +145,19 @@ $ mount | grep fuji
 <summary>cat ~/activity</summary>
 <br>
 
-<div align="center">
+<table>
+<tr>
+<td align="center" width="50%">
+  <img src="./output/top6_lang.svg" alt="Most Used Languages" width="380" />
+</td>
+<td align="center" width="50%">
   <a href="https://lapras.com/public/AFWLVCK" target="_blank">
     <img alt="LAPRAS score" src="https://lapras-card-generator.vercel.app/api/svg?e=3.5&b=3.36&i=3.25&b1=%23060d1f&b2=%230f1d3a&i1=%231e3a5f&i2=%231d4ed8&l=en" width="380" />
   </a>
-</div>
+</td>
+</tr>
+</table>
 
 </details>
+
+![Footer](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=32&section=footer)
