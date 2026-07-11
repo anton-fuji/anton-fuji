@@ -1,12 +1,5 @@
 ---
-/home/fuji:
-  boot: profile.readme
-  pid: 1001
-  role: software engineer
-  stack: [go, rust, nvim, nix, cloud]
-  warning: too many side projects loaded
-  core: github.com/anton-fuji
-  loader: !ruby/class "Fuji::ProfileEscapedMarkdown"
+/home/fuji/.profile.yml　                                                                                                     : !ruby/class "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　fuji@github: go / rust / nvim / nix "
 ---
 
 ![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
