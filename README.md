@@ -34,7 +34,7 @@ $ tail -n 6 /var/log/fuji.log
 [warn] stack overflow: side_projects exceeded ulimit
 [info] building small useful tools
 [info] writing about what I learn
-[ok]   core dumped to github.com/anton-fuji
+[ok]   profile recovered successfully
 ```
 
 <br>
