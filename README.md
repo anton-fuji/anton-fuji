@@ -22,18 +22,6 @@
 </tr>
 </table>
 
-```console
-$ ./side-projects --all
-panic: too many ideas loaded
-
-$ tail -n 6 /var/log/fuji.log
-[boot] profile loader failed with YAML::DisallowedClass
-[fix]  falling back to markdown renderer
-[warn] stack overflow: side_projects exceeded ulimit
-[info] building small useful tools
-[info] writing about what I learn
-[ok]   profile recovered successfully
-```
 
 <br>
 
