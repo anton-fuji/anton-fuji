@@ -9,18 +9,13 @@
 
 ![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
 
-<table align="center">
-<tr>
-<td valign="middle">
+<p align="center">
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&width=420&lines=20+y%2Fo+%7C+Software+Engineer+%F0%9F%91%BD;Building+small+tools+%26+cloud+infra" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&pause=1000&color=60A5FA&width=470&height=56&lines=20+y%2Fo+%7C+Software+Engineer;Building+small+tools+%26+cloud+infra;Go+%2F+Rust+%2F+Nix+%2F+Cloud" alt="Typing SVG" />
 </a>
-</td>
-<td>
-<img src="./img/gopher/gopher-dance.gif" alt="" width="92" />
-</td>
-</tr>
-</table>
+&nbsp;&nbsp;
+<img src="./img/gopher/gopher-avatar.gif" alt="Gopher avatar" width="96" height="96" />
+</p>
 
 
 <br>
@@ -44,7 +39,7 @@
 <br>
 
 <details>
-<summary>ls ~/articles</summary>
+<summary>tail -n 7 ~/writing.log</summary>
 <br>
 
 <!--[START POSTS]-->
@@ -76,33 +71,33 @@ $ mount | grep fuji
 
 <table>
 <tr>
-<td><code>/backend</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=go,redis,mysql,postgresql" /></td>
+<td width="120"><code>/backend</code></td>
+<td width="210"><img src="https://skillicons.dev/icons?theme=dark&i=go,redis,mysql,postgresql" alt="Go Redis MySQL PostgreSQL" /></td>
 <td>CLI tools, APIs, and small useful services</td>
 </tr>
 <tr>
 <td><code>/systems</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=rust" /></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=rust" alt="Rust" /></td>
 <td>Systems programming and contest code</td>
 </tr>
 <tr>
 <td><code>/infra</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=aws,gcp,terraform,docker,githubactions" /></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=aws,gcp,terraform,docker,githubactions" alt="AWS GCP Terraform Docker GitHub Actions" /></td>
 <td>Cloud architecture, IaC, and delivery pipelines</td>
 </tr>
 <tr>
 <td><code>/editor</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=neovim,lua,git" /></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=neovim,lua,git" alt="Neovim Lua Git" /></td>
 <td>Daily driver, plugins, and development workflow</td>
 </tr>
 <tr>
 <td><code>/env</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=nix,linux" /></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=nix,linux" alt="Nix Linux" /></td>
 <td>Reproducible environments and Linux tooling</td>
 </tr>
 <tr>
 <td><code>/ui</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=typescript" /></td>
+<td><img src="https://skillicons.dev/icons?theme=dark&i=typescript,react" alt="TypeScript React" /></td>
 <td>Useful interfaces when the tool needs a surface</td>
 </tr>
 </table>
