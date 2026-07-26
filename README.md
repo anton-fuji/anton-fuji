@@ -110,12 +110,16 @@ $ mount | grep fuji
 <summary>ls ~/certs</summary>
 <br>
 
-<img src="./img/cert/googlecloud-cdl.png" width="80" height="80" />
-<img src="./img/cert/googlecloud-ace.png" width="80" height="80" />
-<img src="./img/cert/googlecloud-pcd.png" width="80" height="80" />
-<img src="./img/cert/googlecloud-pca.png" width="80" height="80" />
-<img src="./img/cert/googlecloud-devops.png" width="80" height="80" />
-<img src="./img/cert/googlecloud-data.png" width="80" height="80" />
+<table>
+<tr>
+<td align="center"><img src="./img/cert/googlecloud-cdl.png" alt="Google Cloud Digital Leader" width="80" height="80" /><br><sub>Cloud Digital Leader</sub></td>
+<td align="center"><img src="./img/cert/googlecloud-ace.png" alt="Associate Cloud Engineer" width="80" height="80" /><br><sub>Associate Cloud Engineer</sub></td>
+<td align="center"><img src="./img/cert/googlecloud-pcd.png" alt="Professional Cloud Developer" width="80" height="80" /><br><sub>Cloud Developer</sub></td>
+<td align="center"><img src="./img/cert/googlecloud-pca.png" alt="Professional Cloud Architect" width="80" height="80" /><br><sub>Cloud Architect</sub></td>
+<td align="center"><img src="./img/cert/googlecloud-devops.png" alt="Professional Cloud DevOps Engineer" width="80" height="80" /><br><sub>Cloud DevOps Engineer</sub></td>
+<td align="center"><img src="./img/cert/googlecloud-data.png" alt="Professional Data Engineer" width="80" height="80" /><br><sub>Data Engineer</sub></td>
+</tr>
+</table>
 
 </details>
 
