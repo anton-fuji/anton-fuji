@@ -5,6 +5,7 @@
   editor: /usr/bin/nvim
   stack: [go, rust, nix, cloud]
   recover: github.com/anton-fuji
+  website                                                                                                                                        : [fuuji.site](https://fuuji.site/)
 ---
 
 ![Header](https://capsule-render.vercel.app/api?type=rect&color=060d1f&height=72&section=header&text=%2Fhome%2Ffuji&fontSize=24&fontColor=60a5fa&fontAlignY=50&desc=software%20engineer%20%7C%20go%20%2F%20rust%20%2F%20nvim&descAlignY=78&descSize=12&descColor=94a3b8)
@@ -16,7 +17,6 @@
 &nbsp;&nbsp;
 <img src="./img/gopher/gopher-dance.gif" alt="Gopher dance" width="108" height="108" />
 </p>
-
 
 <br>
 
