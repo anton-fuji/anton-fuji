@@ -63,45 +63,38 @@
 <summary>ls ~/stack</summary>
 <br>
 
-```console
-$ mount | grep fuji
-/dev/go      on /backend   type service
-/dev/rust    on /systems   type low-level
-/dev/cloud   on /infra     type provisioner
-/dev/nvim    on /editor    type resident
-/dev/nix     on /env       type reproducible
-```
-
 <table>
 <tr>
-<td width="120"><code>/backend</code></td>
-<td width="210"><img src="https://skillicons.dev/icons?theme=dark&i=go,redis,mysql,postgresql" alt="Go Redis MySQL PostgreSQL" /></td>
-<td>CLI tools, APIs, and small useful services</td>
+<td width="50%" valign="top">
+  <code>/backend</code><br>
+  <sub>CLI tools, APIs, and useful services</sub><br><br>
+  <img src="https://skillicons.dev/icons?theme=dark&i=go,redis,mysql,postgresql" alt="Go Redis MySQL PostgreSQL" />
+</td>
+<td width="50%" valign="top">
+  <code>/infra</code><br>
+  <sub>GCP-first IaC and delivery pipelines</sub><br><br>
+  <img src="https://skillicons.dev/icons?theme=dark&i=gcp,terraform,docker,githubactions,aws" alt="Google Cloud Terraform Docker GitHub Actions AWS" />
+</td>
 </tr>
 <tr>
-<td><code>/systems</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=rust" alt="Rust" /></td>
-<td>Systems programming and contest code</td>
+<td valign="top">
+  <code>/systems</code><br>
+  <sub>Low-level work and contest code</sub><br><br>
+  <img src="https://skillicons.dev/icons?theme=dark&i=rust" alt="Rust" />
+</td>
+<td valign="top">
+  <code>/tooling</code><br>
+  <sub>Editor, workflow, and reproducible environments</sub><br><br>
+  <img src="https://skillicons.dev/icons?theme=dark&i=neovim,lua,git,nix,linux" alt="Neovim Lua Git Nix Linux" />
+</td>
 </tr>
 <tr>
-<td><code>/infra</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=aws,gcp,terraform,docker,githubactions" alt="AWS GCP Terraform Docker GitHub Actions" /></td>
-<td>Cloud architecture, IaC, and delivery pipelines</td>
-</tr>
-<tr>
-<td><code>/editor</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=neovim,lua,git" alt="Neovim Lua Git" /></td>
-<td>Daily driver, plugins, and development workflow</td>
-</tr>
-<tr>
-<td><code>/env</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=nix,linux" alt="Nix Linux" /></td>
-<td>Reproducible environments and Linux tooling</td>
-</tr>
-<tr>
-<td><code>/ui</code></td>
-<td><img src="https://skillicons.dev/icons?theme=dark&i=typescript,react" alt="TypeScript React" /></td>
-<td>Useful interfaces when the tool needs a surface</td>
+<td valign="top">
+  <code>/ui</code><br>
+  <sub>Interfaces when a tool needs a surface</sub><br><br>
+  <img src="https://skillicons.dev/icons?theme=dark&i=typescript,react" alt="TypeScript React" />
+</td>
+<td></td>
 </tr>
 </table>
 
