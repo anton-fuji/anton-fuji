@@ -27,7 +27,6 @@
 <summary>cat ~/links.txt</summary>
 <br>
 
-[<img src="./img/social/github.svg" width="36" height="36" />](https://github.com/anton-fuji)
 [<img src="./img/social/x.svg" width="36" height="36" />](https://x.com/sXq7XBrxuB87199)
 [<img src="./img/social/qiita.png" width="36" height="36" />](https://qiita.com/fujifuji1414)
 [<img src="./img/social/zenn.svg" width="36" height="36" />](https://zenn.dev/fuuji)
