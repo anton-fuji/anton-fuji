@@ -41,10 +41,12 @@
 <br>
 
 <details>
-<summary>tail -n 7 ~/writing.log</summary>
+<summary>tail -n 9 ~/writing.log</summary>
 <br>
 
 <!--[START POSTS]-->
+- <img src="./img/alien-icon.svg" alt="Fuji Blog" width="18" height="18" /> [AIがコードを書く時代、Goは「確かめやすさ」が強いのかもしれない](https://fuji-blog.netlify.app/posts/go-for-ai-assisted-development/)
+- <img src="./img/alien-icon.svg" alt="Fuji Blog" width="18" height="18" /> [Neovimのタスク実行をOverseerとTelescopeでちょっと便利にした](https://fuji-blog.netlify.app/posts/neovim-overseer-telescope/)
 - ![](img/qiita.png) [TypeScriptのコンパイラをGoに移植｜10倍高速になった tsgo とは](https://qiita.com/fujifuji1414/items/98ddf083995f4e03ff32)
 - ![](img/zenn.png) [.dockerignoreを生成する「dibo」について紹介](https://zenn.dev/fuuji/articles/3b355c4252a4fc)
 - ![](img/zenn.png) [GoでUNIXコマンドを作りながら、I/O処理を理解する](https://zenn.dev/fuuji/articles/6b2afad9252676)
