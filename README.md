@@ -61,7 +61,7 @@
 <br>
 
 <details>
-<summary>ls ~/stack</summary>
+<summary>tree ~/stack -L 1</summary>
 <br>
 
 <table>
