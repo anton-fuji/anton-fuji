@@ -61,41 +61,37 @@
 <br>
 
 <details>
-<summary>tree ~/stack -L 1</summary>
+<summary>stack/</summary>
 <br>
 
 <table>
 <tr>
 <td width="50%" valign="top">
-  <code>/backend</code><br>
-  <sub>CLI tools, APIs, and useful services</sub><br><br>
-  <img src="https://skillicons.dev/icons?theme=dark&i=go,redis,mysql,postgresql" alt="Go Redis MySQL PostgreSQL" />
+  <sub>01 — BUILD</sub><br>
+  <strong>Services &amp; systems</strong><br>
+  <sub>APIs, CLIs, persistence, and performance-sensitive code.</sub><br><br>
+  <img src="https://skillicons.dev/icons?theme=dark&i=go,rust,redis,mysql,postgresql" alt="Go Rust Redis MySQL PostgreSQL" />
 </td>
 <td width="50%" valign="top">
-  <code>/infra</code><br>
-  <sub>GCP-first IaC and delivery pipelines</sub><br><br>
+  <sub>02 — PLATFORM</sub><br>
+  <strong>Cloud &amp; delivery</strong><br>
+  <sub>GCP-first infrastructure, automation, and reliable releases.</sub><br><br>
   <img src="https://skillicons.dev/icons?theme=dark&i=gcp,terraform,docker,githubactions,aws" alt="Google Cloud Terraform Docker GitHub Actions AWS" />
 </td>
 </tr>
 <tr>
 <td valign="top">
-  <code>/systems</code><br>
-  <sub>Low-level work and contest code</sub><br><br>
-  <img src="https://skillicons.dev/icons?theme=dark&i=rust" alt="Rust" />
-</td>
-<td valign="top">
-  <code>/tooling</code><br>
-  <sub>Editor, workflow, and reproducible environments</sub><br><br>
+  <sub>03 — TOOLCHAIN</sub><br>
+  <strong>Developer environment</strong><br>
+  <sub>Neovim workflow and reproducible local environments.</sub><br><br>
   <img src="https://skillicons.dev/icons?theme=dark&i=neovim,lua,git,nix,linux" alt="Neovim Lua Git Nix Linux" />
 </td>
-</tr>
-<tr>
 <td valign="top">
-  <code>/ui</code><br>
-  <sub>Interfaces when a tool needs a surface</sub><br><br>
+  <sub>04 — INTERFACE</sub><br>
+  <strong>Useful surfaces</strong><br>
+  <sub>Focused UIs when a tool needs a human-facing layer.</sub><br><br>
   <img src="https://skillicons.dev/icons?theme=dark&i=typescript,react" alt="TypeScript React" />
 </td>
-<td></td>
 </tr>
 </table>
 
