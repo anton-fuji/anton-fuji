@@ -41,19 +41,21 @@
 <br>
 
 <details>
-<summary>tail -n 9 ~/writing.log</summary>
+<summary>tail -n 11 ~/writing.log</summary>
 <br>
 
 <!--[START POSTS]-->
-- <img src="./img/fuji-blog.svg" alt="Fuji Blog" width="18" height="18" /> [AIがコードを書く時代、Goは「確かめやすさ」が強いのかもしれない](https://fuji-blog.netlify.app/posts/go-for-ai-assisted-development/)
-- <img src="./img/fuji-blog.svg" alt="Fuji Blog" width="18" height="18" /> [Neovimのタスク実行をOverseerとTelescopeでちょっと便利にした](https://fuji-blog.netlify.app/posts/neovim-overseer-telescope/)
-- ![](img/qiita.png) [TypeScriptのコンパイラをGoに移植｜10倍高速になった tsgo とは](https://qiita.com/fujifuji1414/items/98ddf083995f4e03ff32)
+- ![](img/fuji-blog.svg) [Vim風ショートカットをちょっと足した](https://fuji-blog.netlify.app/posts/vimmer-friendly-blog-shortcuts/)
+- ![](img/fuji-blog.svg) [Goを開発プラットフォームとして見る](https://fuji-blog.netlify.app/posts/go-for-ai-assisted-development/)
+- ![](img/fuji-blog.svg) [Neovimのタスク実行をOverseerとTelescopeでちょっと便利にした](https://fuji-blog.netlify.app/posts/neovim-overseer-telescope/)
 - ![](img/zenn.png) [.dockerignoreを生成する「dibo」について紹介](https://zenn.dev/fuuji/articles/3b355c4252a4fc)
 - ![](img/zenn.png) [GoでUNIXコマンドを作りながら、I/O処理を理解する](https://zenn.dev/fuuji/articles/6b2afad9252676)
 - ![](img/qiita.png) [ソケット通信を一緒に理解しよう！！](https://qiita.com/fujifuji1414/items/6daa393a86582d81f0b5)
 - ![](img/zenn.png) [TerraformでAmplifyを構築し、爆速でデプロイする](https://zenn.dev/fuuji/articles/795a7b6c9e4050)
 - ![](img/zenn.png) [Fiber + Redis で URL Shortenerを実装し、仕組みを理解する](https://zenn.dev/fuuji/articles/5e148160d40698)
-- ![](img/zenn.png) [Terraform で ECR + Lambda + API Gateway 構築し、FastAPI をサーバーレスにデプロイ](https://zenn.dev/fuuji/articles/f712b546218815)
+- ![](img/qiita.png) [サクッとGoで AI エージェントを構築してみる](https://qiita.com/fujifuji1414/items/fc259d51de4aaf1bc75e)
+- ![](img/qiita.png) [TypeScriptのコンパイラをGoに移植｜10倍高速になった tsgo とは](https://qiita.com/fujifuji1414/items/98ddf083995f4e03ff32)
+- ![](img/qiita.png) [ブラウザでWebサイトが表示されるまでの仕組みを整理してみた](https://qiita.com/fujifuji1414/items/f9c53b451fa4890b8bfc)
 <!--[END POSTS]-->
 
 </details>
