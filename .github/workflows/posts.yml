@@ -25,10 +25,6 @@ jobs:
         with:
           go-version: '1.23.2' # 必要に応じてGoのバージョンを変更
 
-      # 必要な依存関係のインストール（もしある場合）
-      - name: Install dependencies
-        run: go mod tidy
-
       # Goプログラムを実行してREADME.mdを更新
       - name: Run updater
         run: go run main.go
