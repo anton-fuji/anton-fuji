@@ -1,8 +1,0 @@
-- urls:
-    - https://qiita.com/fujifuji1414/feed.atom
-  template: |-
-    **Qiita**
-    {{range . -}}
-      * ![](./img/qiita.png) [{{ .Title }}]({{ .URL }})
-    {{ end }}
-  limit: 5
