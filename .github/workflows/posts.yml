@@ -35,6 +35,10 @@ jobs:
       # README.mdをコミットしてプッシュ
       - name: Commit and push changes
         run: |
+          if git diff --quiet -- README.md; then
+            echo "README.md に変更はありません。"
+            exit 0
+          fi
           git add README.md
           git commit -m "update posts!"
           git push origin main
