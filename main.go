@@ -113,7 +113,7 @@ func main() {
 		if err := os.WriteFile("README.md", []byte(readmeContent), 0o644); err != nil {
 			log.Fatalf("README書き込みエラー: %v", err)
 		}
-		fmt.Println("README.md が更新されました！")
+		fmt.Println("README.md が更新されました")
 		return
 	}
 
