@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"log"
+	"net/http"
 	"os"
 	"regexp"
 	"sort"
@@ -11,6 +12,8 @@ import (
 
 	"github.com/mmcdole/gofeed"
 )
+
+const feedRequestTimeout = 15 * time.Second
 
 type FeedSource struct {
 	Name  string
@@ -49,6 +52,7 @@ var feedSources = []FeedSource{
 
 func fetchFeed(source FeedSource) ([]Post, error) {
 	fp := gofeed.NewParser()
+	fp.Client = &http.Client{Timeout: feedRequestTimeout}
 	feed, err := fp.ParseURL(source.URL)
 	if err != nil {
 		return nil, fmt.Errorf("%s フィード取得エラー: %w", source.Name, err)
