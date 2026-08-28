@@ -76,12 +76,7 @@ func fetchFeed(source FeedSource) ([]Post, error) {
 			Source:      source,
 		})
 	}
-	sort.Slice(posts, func(i, j int) bool {
-		return posts[i].PublishedAt.After(posts[j].PublishedAt)
-	})
-	if len(posts) > source.Limit {
-		posts = posts[:source.Limit]
-	}
+	posts = sortAndLimitPosts(posts, source.Limit)
 
 	fmt.Printf("✅ %s の表示記事数: %d\n", source.Name, len(posts))
 	return posts, nil
@@ -130,6 +125,16 @@ func renderPosts(posts []Post) string {
 		fmt.Fprintf(&output, "- %s [%s](%s)\n", post.Source.Icon, post.Title, post.URL)
 	}
 	return strings.TrimSuffix(output.String(), "\n")
+}
+
+func sortAndLimitPosts(posts []Post, limit int) []Post {
+	sort.Slice(posts, func(i, j int) bool {
+		return posts[i].PublishedAt.After(posts[j].PublishedAt)
+	})
+	if len(posts) > limit {
+		return posts[:limit]
+	}
+	return posts
 }
 
 func updateWritingLogCount(content string, count int) string {
