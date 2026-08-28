@@ -27,9 +27,9 @@
 <summary>cat ~/links.txt</summary>
 <br>
 
-[<img src="./img/social/x.svg" width="36" height="36" />](https://x.com/sXq7XBrxuB87199)
-[<img src="./img/social/qiita.png" width="36" height="36" />](https://qiita.com/fujifuji1414)
-[<img src="./img/social/zenn.svg" width="36" height="36" />](https://zenn.dev/fuuji)
+[<img src="./img/social/x.svg" alt="X" width="36" height="36" />](https://x.com/sXq7XBrxuB87199)
+[<img src="./img/social/qiita.png" alt="Qiita" width="36" height="36" />](https://qiita.com/fujifuji1414)
+[<img src="./img/social/zenn.svg" alt="Zenn" width="36" height="36" />](https://zenn.dev/fuuji)
 
 <p align="left">
     <img src="https://badgen.org/img/zenn/fuuji/likes?style=flat-square" alt="Zenn Likes" />
