@@ -63,3 +63,10 @@ func TestRenderPosts(t *testing.T) {
 		t.Errorf("rendered post = %q, want %q", got, want)
 	}
 }
+
+func TestReplaceBetweenRejectsInvalidMarkers(t *testing.T) {
+	_, err := replaceBetween("README", "<!--[START POSTS]-->", "<!--[END POSTS]-->", "posts")
+	if err == nil {
+		t.Fatal("replaceBetween() error = nil, want an error for missing markers")
+	}
+}

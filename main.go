@@ -100,12 +100,15 @@ func main() {
 		log.Fatalf("README読み込みエラー: %v", err)
 	}
 
-	readmeContent := replaceBetween(
+	readmeContent, err := replaceBetween(
 		string(readme),
 		"<!--[START POSTS]-->",
 		"<!--[END POSTS]-->",
 		renderPosts(posts),
 	)
+	if err != nil {
+		log.Fatal(err)
+	}
 	readmeContent = updateWritingLogCount(readmeContent, len(posts))
 
 	if readmeContent != string(readme) {
@@ -143,13 +146,12 @@ func updateWritingLogCount(content string, count int) string {
 }
 
 // replaceBetween replaces the content enclosed by the two marker comments.
-func replaceBetween(content, start, end, newContent string) string {
+func replaceBetween(content, start, end, newContent string) (string, error) {
 	startIdx := strings.Index(content, start)
 	endIdx := strings.Index(content, end)
 	if startIdx == -1 || endIdx == -1 || startIdx >= endIdx {
-		log.Printf("プレースホルダーが見つからないため、README は変更されません。")
-		return content
+		return content, fmt.Errorf("プレースホルダーが見つからないため、READMEを更新できません")
 	}
 
-	return content[:startIdx+len(start)] + "\n" + newContent + "\n" + content[endIdx:]
+	return content[:startIdx+len(start)] + "\n" + newContent + "\n" + content[endIdx:], nil
 }
